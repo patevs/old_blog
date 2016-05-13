@@ -2,7 +2,7 @@
 var main = function(){
 	$('.icon-menu').click(function(){
 		$('.menu').animate({ left: '0px' }, 200);
-		$('.icon-menu').hide();
+		$('.icon-menu').hide(100);
 	});
 	$('.close').click(function(){
 		$('.menu').animate({ left: '-320px' }, 200);
