@@ -50,6 +50,7 @@ html, body {
 .main {
 	height: 10000px;
 	width: 625px;
+	padding-left: 1em;
 	background: #FFFF31;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -81,12 +82,19 @@ html, body {
 	padding-left: 25px;
 	padding-top: 25px;
 	text-transform: uppercase;
-	letter-spacing: 2px;
 	cursor: pointer;
 }
 
 .icon-menu a {
-	text-decoration: none;
 	color: black;
+	text-decoration: none;
+	letter-spacing: 2.5px;
 	z-index: 0.9;
+}
+
+.player {
+	border: 1px solid black;
+	width: 98%;
+	margin-bottom: 50px;
+	margin-top: 75px;
 }
