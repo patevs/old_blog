@@ -54,7 +54,7 @@ html, body {
 	background: #FFFF31;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-    -o-background-size: cover;
+    	-o-background-size: cover;
 	background-size: cover;
 }
 
@@ -72,7 +72,7 @@ html, body {
 	padding-bottom: 35px;
 	padding-top: 25px;
 	text-align: center;
-	border-bottom: 2px solid #333;
+	border-bottom: 2px solid #828E84;
 }
 
 .icon-menu {
@@ -97,4 +97,7 @@ html, body {
 	width: 98%;
 	margin-bottom: 50px;
 	margin-top: 75px;
+}
+.player iframe{
+	padding: 0;
 }
