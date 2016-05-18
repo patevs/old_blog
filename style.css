@@ -46,15 +46,19 @@ html, body {
 	text-transform: uppercase;
 }
 
-
 .main {
 	height: 10000px;
-	width: 625px;
+	width: 700px;
 	padding-left: 1em;
-	background: #FFFF31;
+	overflow: hidden;
+	background: #ffff99; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left top, #FFFF31, #ffff99); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #FFFF31, #ffff99); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #FFFF31, #ffff99); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #FFFF31, #ffff99); /* Standard syntax */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-    	-o-background-size: cover;
+    -o-background-size: cover;
 	background-size: cover;
 }
 
