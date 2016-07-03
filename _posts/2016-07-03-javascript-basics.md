@@ -26,9 +26,10 @@ Code after double slashes <strong>//</strong> or between <strong>/*</strong> and
 
 ```javascript
 // this is a single line comment
-
+var num = 5; // this code executes
 /*
   this is a multi-line comment
+  var num = 10; // this code does not execute
 */
 ```
 <br>
