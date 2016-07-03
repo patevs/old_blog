@@ -17,7 +17,7 @@ baseurl: ""
 title: Patrick Evans
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: A virtual proof my name is awesome!
 
 # --- Navigation bar options --- #
 
@@ -71,7 +71,7 @@ footer-links-active:
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Pacific/Auckland"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
