@@ -4,7 +4,7 @@ title: Command Line Basics
 subtitle: Developing Command Line Skills
 ---
 
-The Command Line Interface (CLI) is an essential and powerful tool for any developer. The Command
+The <i>Command Line Interface</i> (CLI) is an essential and powerful tool for any developer. The Command
 Line gives a user (client) a means of interacting with a computer program through the issuing of 
 commands to the program in the form of successive lines of text (commands).
 
