@@ -9,6 +9,39 @@ body {
   position: relative;
   background: #FFF;
 }
+
+.intro{
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.imgWrap {
+  position: relative;
+  border: 2px solid #222;
+}
+
+.imgDescription {
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #111;
+  opacity: 0;
+  color: #fff;
+  visibility: hidden;
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 0.75;
+}
+
+.imgWrap:hover .imgDescription .imgtext{
+  margin-top: .2em;
+}
+
 p {
   line-height: 1.5;
   margin: 30px 0;
