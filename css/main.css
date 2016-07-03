@@ -399,7 +399,7 @@ footer .theme-by {
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
   padding: 100px 0;
-  color: #FFF;
+  color: #333;
   text-shadow: 1px 1px 3px #000;
 }
 .intro-header .page-heading h1 {
@@ -418,6 +418,7 @@ footer .theme-by {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
+  text-shadow: 2px 1px 3px #FFF;
 }
 .intro-header .post-heading .post-subheading {
   margin-bottom: 20px;
