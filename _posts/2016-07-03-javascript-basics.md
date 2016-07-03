@@ -35,7 +35,7 @@ var num = 5; // this code is executed
 <br>
 
 ## Data Types
-There are five types of primitive data types in JavaScript. They are as follows:
+There are five primitive data types in JavaScript. They are as follows:
 
 | Data Type | Description |
 | :------ |:--- |
