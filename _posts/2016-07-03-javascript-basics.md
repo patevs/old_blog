@@ -72,3 +72,52 @@ console.log(nameString("Patrick"));
 
 <br>
 
+## Arrays
+An array is a special variable, which can hold more than one value at a time under a single name. 
+You can access the values of the array by referring to an index number.
+
+<strong>Creating an Array:</strong>
+
+```javascript
+// Using literal notation
+var cars = ["Saab", "Volvo", "BMW"];
+
+// Using the `new` keyword (not common practice)
+var cars = new Array("Saab", "Volvo", "BMW");
+```
+
+<strong>Accessing Elements:</strong>
+
+```javascript
+// accessing the value of the first element in cars array
+var name = cars[0];
+
+// modifying the first element in cars array
+cars[0] = "Opel";
+```
+
+<strong>Array Methods:</strong>
+
+```javascript
+// adding a new element to end of cars array
+cars.push("Toyota");
+
+// adding a new element to the start of cars array
+cars.unshift("Golf"); // returns new array length
+
+// removing the last element from cars array
+var myVar = cars.pop(); // the removed value is returned
+
+// removing the first element of cars, shifting all other elements to a lower index
+var myVar = cars.shift(); // the removed value is returned
+
+// joining multiple arrays using concat
+var myChildren = arr1.concat(arr2, arr3); // Concatenates arr1 with arr2 and arr3
+
+// converting an array to a string
+cars.toString();
+```
+
+<br>
+
+
