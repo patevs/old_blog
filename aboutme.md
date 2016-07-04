@@ -10,5 +10,5 @@ where I am in my second year of study towards a Bachelor of Engineering in Softw
 
 I am extremely interested in everything to do with engineering especially subjects of electronics, computer system, and software design and development. 
 
-The pupose of this website is to create an enviroment for developing skilling and testing ideas on whatever 
+The pupose of this website is to create an enviroment for developing skills and testing ideas on whatever 
 topics I find intriguing or am studying.

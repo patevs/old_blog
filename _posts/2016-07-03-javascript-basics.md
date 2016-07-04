@@ -1,16 +1,20 @@
 ---
 layout: post
 title: Javascript Language Basics
-subtitle: Developing Javascript Language Skills
+subtitle: Developing Javascript Skills
 ---
 
+<div style="border-bottom:1px solid black">
 <i>Javascript</i> is a high-level, untyped, and interpreted, object-oriented 
 programming language commonly used to create interactive websites.
 Alongside HTML and CSS, it's one of the three core technologies of
 <a href="https://en.wikipedia.org/wiki/World_Wide_Web">World Wide Web</a> 
 content production; the majority of websites employ it and it is supported
  by all modern Web browsers without plug-ins.
-<br>
+
+ <p style="text-align:center"> More information <a href="https://www.codecademy.com/articles/glossary-javascript">here</a></p>
+</div>
+
 <br>
 
 ## Variables 
@@ -26,10 +30,10 @@ Code after double slashes <strong>//</strong> or between <strong>/*</strong> and
 
 ```javascript
 // this is a single line comment
-var num = 5; // this code is executed
+var num = 5; 			// this code is executed
 /*
   this is a multi-line comment
-  var num = 10; // this code is not executed
+  var num = 10; 		// this code is not executed
 */
 ```
 <br>
@@ -79,43 +83,36 @@ You can access the values of the array by referring to an index number.
 <strong>Creating an Array:</strong>
 
 ```javascript
-// Using literal notation
-var cars = ["Saab", "Volvo", "BMW"];
+var cars = ["Saab", "Volvo", "BMW"];		// Using literal notation
 
-// Using the `new` keyword (not common practice)
-var cars = new Array("Saab", "Volvo", "BMW");
+var cars = new Array("Saab", "Volvo", "BMW");	// Using constructor notation (bad practice)
 ```
 
 <strong>Accessing Elements:</strong>
 
 ```javascript
-// accessing the value of the first element in cars array
-var name = cars[0];
+var name = cars[0]; 	// accessing the value of the first element in cars array
 
-// modifying the first element in cars array
-cars[0] = "Opel";
+cars[0] = "Opel"; 	// modifying the first element in cars array
 ```
 
 <strong>Array Methods:</strong>
 
 ```javascript
-// adding a new element to end of cars array
-cars.push("Toyota");
+cars.push("Toyota"); 			// adding a new element to end of cars array
 
-// adding a new element to the start of cars array
-cars.unshift("Golf"); // returns new array length
+cars.unshift("Golf"); 			// adding a new element to the start of cars array
 
-// removing the last element from cars array
-var myVar = cars.pop(); // the removed value is returned
+var lastEle = cars.pop(); 		// remove and return the last element from cars array
 
-// removing the first element of cars, shifting all other elements to a lower index
-var myVar = cars.shift(); // the removed value is returned
+var firstEle = cars.shift(); 		// remove and return the first element of cars
+					// shifting all other elements to a lower index
 
-// joining multiple arrays using concat
-var myChildren = arr1.concat(arr2, arr3); // Concatenates arr1 with arr2 and arr3
+var all = arr1.concat(arr2, arr3); 	// joining multiple arrays using concat
 
-// converting an array to a string
-cars.toString();
+cars.toString(); 			// converting an array to a string
+
+cars.length; 				// returns the number of elements in the array
 ```
 
 <br>
