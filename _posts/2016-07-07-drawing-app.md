@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simple Drawing App
-subtitle: Testing javascript and HTML5 canvas
+subtitle: Testing Javascript and HTML5 canvas
 ---
 
 In order to expand my knowledge and skills in the javascript language,
