@@ -2,10 +2,10 @@
 layout: post
 title: Simple Drawing App
 subtitle: Testing Javascript and HTML5 canvas
+published: false
 ---
 
-In order to expand my knowledge and skills in the javascript language,
-I have created a simple in-browser drawing application.
+
 
 The app is very basic, using javascript for the logic and an HTML5 canvas element for displaying the drawings/images.
 
