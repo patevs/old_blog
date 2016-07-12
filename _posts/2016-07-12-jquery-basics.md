@@ -22,7 +22,7 @@ jQuery also simplifies a lot of the complicated things from JavaScript, like AJA
 
 ## The Document Object Model (DOM)
 When a web page is loaded, the browser creates a <strong>D</strong>ocument <strong>O</strong>bject <strong>M</strong>odel of the page.
-The DOM allows javascript and jquery to access, modifiy, remove, and add HTML elements
+The DOM allows javaScript and jquery to access, modifiy, remove, and add HTML elements
 to the document or webpage.
 
 <strong>The HTML DOM is constructed as a tree of Objects:</strong>
