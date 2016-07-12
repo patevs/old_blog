@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Javascript Language Basics
-subtitle: Developing Javascript Skills
+title: JavaScript Language Basics
+subtitle: Developing JavaScript Skills
 ---
 
 <div style="border-bottom:1px solid black">
-<i>Javascript</i> is a high-level, untyped, and interpreted, object-oriented 
+<i>JavaScript</i> is a high-level, untyped, and interpreted, object-oriented 
 programming language commonly used to create interactive websites.
 Alongside HTML and CSS, it's one of the three core technologies of
 <a href="https://en.wikipedia.org/wiki/World_Wide_Web">World Wide Web</a> 
@@ -18,7 +18,7 @@ content production; the majority of websites employ it and it is supported
 <br>
 
 ## Variables 
-We store data values in variables. We can bring back the values of these variables by typing the variable name.
+We store data values in variables if we want to use that information at a later time. We can bring back the values of these variables by typing the variable name.
 
 ```javascript
 var myVar = "Hello World!"; 	// creates a variable 'myVar' with value "Hello World!"
@@ -52,7 +52,7 @@ There are five primitive data types in JavaScript. They are as follows:
 <br>
 
 ## Manipulating Numbers & Strings 
-There are many ways to manipulate numbers and strings in Javascript including:
+There are many ways to manipulate numbers and strings in JavaScript including:
   
   - comparisons (e.g. `>`, `<=`) 
   - modulo (e.g. `%`) 
