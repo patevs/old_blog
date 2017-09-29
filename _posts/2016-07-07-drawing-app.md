@@ -2,7 +2,6 @@
 layout: post
 title: Simple Drawing App
 subtitle: Testing Javascript and HTML5 canvas
-published: true
 ---
 
 Created using javascript and the HTML5 canvas element, I have made this drawing 
