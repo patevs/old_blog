@@ -4,11 +4,13 @@ title: Simple Drawing App
 subtitle: Testing Javascript and HTML5 canvas
 ---
 
-Created using javascript and the HTML5 canvas element, I have made this drawing 
-app in order to further my knowledge on the design and development of web applications.
+Created with Javascript implementing the use of the HTML5 canvas element as the output display.
 
-The app is very basic, using javascript for the logic and the HTML5 canvas element for displaying the drawings/images.
+The app uses Javascript for controlling the logic of the paintbrush's position on the screen and if the mouse is pressed. Javascript is also utalised in the brush colour selection and radius control. The HTML5 canvas element is implemented for displaying the drawings created with the app.
 
-Take a look at my <a href="https://patevs.github.io/drawing-app/">github account</a> page if you are interested in seeing the code for the app.
+Take a look at the git repository<a href="https://github.com/patevs/drawing-app">here</a> if you are interested in seeing the code for the app.
 
-Otherwise, the app can be found <a href="https://patevs.github.io/drawing-app/">here</a>. 
+<b>Otherwise, The app can be found <a href="https://patevs.github.io/drawing-app/">here</a>.</b> 
+
+*NOTE 
+The Save function is current not working and will open an empty window only.
