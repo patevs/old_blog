@@ -40,7 +40,8 @@ __Ex:__ (D:\games\galaga.exe C:\programs[\awesome.exe]), [ ] = optional<br>
 `del .` : deletes all files within current directory<br>
 `del *.*` : deletes all files within current directory<br>
 <br>
-`dir` : display contents of current directory (__Ex:__ dir [c:][\programs]), [ ] = optional<br>
+`dir` : display contents of current directory <br>
+__Ex:__ (dir [c:][\programs]), [ ] = optional<br>
 `dir *.txt` : list all .txt files in current directory<br>
 `dir *.?` : list all files with extensions one character in length in current directory<br>
 `dir /w /p *.*` : display all contents one screen at a time<br>
@@ -54,7 +55,8 @@ __Ex:__ (D:\games\galaga.exe C:\programs[\awesome.exe]), [ ] = optional<br>
 `erase` : delete/erase<br>
 `exit` : exit the command prompt<br>
 `filename.txt` : opens filename.txt in current directory in default .txt program<br>
-`format z:` : format z drive __Ex:__ use to format a disc or flash drive<br>
+`format z:` : format z drive<br>
+__Ex:__ use to format a disc or flash drive<br>
 <br>
 `mkdir x` : make directory x in current directory<br>
 `move x y` : more or rename x to y<br>
@@ -96,10 +98,11 @@ Send contents of script.js to the system debug.exe file:<br>
 <br>
 
 <br>
-# Send directory listing to a printer or file
+# Send directory listing to a printer or files
 1. `dir > prn` (theoretically to a printer)
 2. `dir > somefile.txt`
-3. `dir *.mp3 > c:\Users\Dan\Desktop\musiclist.txt` : print all .mp3 files in current directory to musiclist.txt
+3. `dir *.mp3 > c:\Users\Dan\Desktop\musiclist.txt` : <br>
+print all .mp3 files in current directory to musiclist.txt
 <br>
 
 <br>
@@ -119,3 +122,37 @@ Send contents of script.js to the system debug.exe file:<br>
 | c : bright red | d : bright magenta | e bright yellow | f : bright white |
 
 <br>
+<br>
+# Environmental Variables via the DOS command prompt
+__System-generated upon Windows startup:__<br>
+`%DATE%` : Tue 08/02/2011<br>
+`%TIME%` : 14:23:33.37<br>
+`%SYSTEMROOT%` : C:\Windows<br>
+`%COMPUTERNAME%` : PAT-PC<br>
+<br>
+__System-generated upon user login:__<br>
+`%USERNAME%` = Pat<br>
+`%USERDOMAIN%` = Pat-PC<br>
+<br>
+__Local machine variables for all users:__<br>
+`%PATH%` = C:\Windows\system32<br>
+`%HOMEPATH%` = \Users\Pat<br>
+`%HOMEDRIVE%` = C:<br>
+(Hint: Use echo)<br>
+<br>
+
+<br>
+# Function Keys
+`F1` : Sequential, individual repeat of previously entered characters<br>
+`F2` : Copies any number of characters from the previous command line<br>
+`F3` : Repeats the contents of the previous command line<br>
+`F4` : Deletes any number of characters from the previous command line<br>
+`F5` : Return to the previous command line<br>
+`F6` : Enters the characters ^z (CTRL+z), indicating “end of file”<br>
+`F7` : Displays a history of command-line entries for the current session (50-line cache)<br>
+`F8` : Sequentially displays previous command-line entries<br>
+`F9` : Enables user to recall previous command lines by number (0 = first line<br>
+<br>
+
+<br>
+
