@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Windows Command Line Cheat Sheet
-subtitle: Developing Command Line Skills
+title: Windows Command Line
+subtitle: Cheat Sheet
 ---
 
 <div style="border-bottom:1px solid black">
-The Windows <i>Command Line Interface</i> (CLI) is an essential and powerful tool for any developer. The command
+The Windows <i>_C_ommand _L_ine _I_nterface</i> (CLI) is an essential and powerful tool for any developer. The command
 line gives a user or client a means of interacting with a computer program through the issuing of 
 commands to the program in the form of successive lines of text (commands).<br>
 
@@ -18,7 +18,6 @@ The following is my command prompt reference in case I forget any of it. This ca
 <br>
 
 #### To Open the Windows Command Prompt do any of the following:
-<br>
 * Click Start -> Programs -> Accessories -> Command Prompt
 * Click Start (or hit the Windows key), type “cmd” in search, then hit [ENTER]
 * Windows Key + R (#r, not the pound symbol) brings up Run. Then type “cmd” then [ENTER]
