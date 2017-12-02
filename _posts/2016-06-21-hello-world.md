@@ -4,12 +4,9 @@ title: Hello World!
 subtitle: Testing Bash/Shell commands
 ---
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
-
 ## Here is a list of some Bash/Shell commands
 
-
-<p style="text-align:center"> More information: <a href="https://www.codecademy.com/articles/command-line-commands">here</a></p>
+<p style="text-align:center"> More information: <a target="_blank" href="https://www.codecademy.com/articles/command-line-commands">here</a></p>
 
 # Basic Commands
 `ls -a` or `dir /A` : lists contents of working direcotry, including hidden files and directories

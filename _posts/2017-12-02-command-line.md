@@ -64,6 +64,11 @@ __Ex:__ (D:\games\galaga.exe C:\programs[\awesome.exe]), [ ] = optional<br>
 `type file` : display the contents of the file ‘file’ (displays file contents in console)
 `type file |more` : display the contents one line at a time
 <br>
+# Advanced Command Prompt Commands
+`ipconfig [/all]` : display network adapter information (advanced)<br>
+`netstat –n` : display local address and addresses you are connected to (advanced)<br>
+`netstat –nb` : above with name of foreign addresses (advanced) (this shows your private IP, if you are behind a router or proxy, then your public IP address will be different)<br>
+`ping google.com` : how long it takes for your computer to talk to google.com<br>
 <br>
 # Miscellaneous
 Acceptable characters: ```A-Z a-z 0-9 $ # & @ ! ( ) – { } ‘ ` _ ~```<br>
@@ -78,5 +83,46 @@ Unacceptable characters: ```| < > \ ^ + = ? / [ ] ” ; , * : %```<br>
 `«` = directs additional data from a file or device to a program or device<br>
 `nul` = black hole<br>
 <br>
+# Convert output of one process into the input of another process
+Send contents of script.js to the system debug.exe file:<br>
+1. `script.js | c:\programs]debug.exe`
+2. `programs\debug.exe < script.js`<br>
 
+# Send directory listing to a printer or file
+1. `dir > prn` (theoretically to a printer)
+2. `dir > somefile.txt`
+3. `dir *.mp3 > c:\Users\Dan\Desktop\musiclist.txt` : print all .mp3 files in current directory to musiclist.txt
+
+# Customize the DOS command prompt
+`prompt /?` : display prompt options<br>
+`prompt $p$g` : display current directory followed by a greater-than symbol (Windows default)<br>
+`prompt $p$g$t` : display time after the default prompt<br>
+`prompt [%computername%][%username%] $g` : display computer name followed by username<br>
+`prompt` : reset prompt to default<br>
+<br>
+`color 0a` : change prompt color to matrix green and screen color to black<br>
+`color 84` : change colors to red on grey<br>
+<br>
+
+| Ten | b : bright cyan | 9 : bright blue |
+| 7 : white | 8 : grey | 6 : yellow |
+| 2 : green | 3 : cyan | 1 : black |
+
+<br>
+0 = black
+1 = blue
+2 = green
+3 = cyan
+4 = red
+5 = magenta
+6 = yellow
+7 = white
+8 = grey
+9 = bright blue
+a = bright green
+b = bright cyan
+c = bright red
+d = bright magenta
+e = bright yellow
+f = bright white
 <br>
