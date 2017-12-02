@@ -26,57 +26,42 @@ The following is my command prompt reference/ cheat sheet in case I forget any o
 <br>
 
 # Basic Commands
-`ls -a` or `dir /A` : lists contents of working direcotry, including hidden files and directories
-
-`pwd` : Outputs the name of the current directory
-
-`mkdir` : Creates a new directory in the working directory
-
-`touch` : Creates a new file inside the working directory
-
-`cp` : copies files
-
-`mv` : moves and renames files
-
-`rm` : removes files
-
-`rm -r` : removes directories
-
 `x /?` : provides syntax info & complete list of all params for x (a command, like “cd”)<br>
 `cd` : change directory<br>
 `cd ..` : move to the parent directory<br>
 `cd\` : move to the root of current drive<br>
 `cd x` : move to the current\x directory<br>
 `cd z:` : change to the z root directory (as opposed to c:)<br>
-`copy x y` : copy file x to directory y (Ex: D:\games\galaga.exe C:\programs[\awesome.exe]), [] = optional<br>
+`copy x y` : copy file x to directory y<br> 
+			 __Ex:__ (D:\games\galaga.exe C:\programs[\awesome.exe]), [ ] = optional<br>
 `copy file con` : display file contents in console<br>
-copy con file.txt : create text file in the console window, end with ctrl+z (^z or F6)<br>
-date : change the date<br>
-del = delete/erase<br>
-del x = deletes all files/folders fitting x<br>
-del . = deletes all files within current directory<br>
-del *.* = deletes all files within current directory
-dir = display contents of current directory (Ex: dir [c:][\programs]), [] = optional
-dir *.txt = list all .txt files in current directory
-dir *.? = list all files with extensions one character in length in current directory
-dir /w /p *.* = display all contents one screen at a time
-dir | more = display all contents one line at a time
-dir /? = provides syntax info and complete list of all dir parameters
-echo = send command line input to display (by default)
-echo sometext » somefile.txt = append line(s) of text to any file
-echo sometext > somefile.txt = overwrites file with sometext
-erase = delete/erase
-exit = exit the command prompt
-filename.txt = opens filename.txt in current directory in Notepad (or default .txt program)
-format z: = format z drive [Ex: use to format a disc or flash drive]
-mkdir x = make directory x in current directory
-move x y = more or rename x to y
-q = escapes sequential display of contents (i.e. the more parameter)
-rd x = remove/delete directory x if it’s empty
-ren x y = rename file x to y
-time = change the time
-type file = display the contents of the file ‘file’ (displays file contents in console)
-type file |more = display the contents one line at a time
+`copy con file.txt` : create text file in the console window, end with ctrl+z (^z or F6)<br>
+`date` : change the date<br>
+`del` : delete/erase<br>
+`del x` : deletes all files/folders fitting x<br>
+`del .` : deletes all files within current directory<br>
+`del *.*` : deletes all files within current directory<br>
+`dir` : display contents of current directory (Ex: dir [c:][\programs]), [] = optional<br>
+`dir *.txt` : list all .txt files in current directory<br>
+`dir *.?` : list all files with extensions one character in length in current directory<br>
+`dir /w /p *.*` : display all contents one screen at a time<br>
+`dir | more` : display all contents one line at a time<br>
+`dir /?` : provides syntax info and complete list of all dir parameters<br>
+`echo` : send command line input to display (by default)<br>
+`echo sometext » somefile.txt` : append line(s) of text to any file<br>
+`echo sometext > somefile.txt` : overwrites file with sometext<br>
+`erase` : delete/erase<br>
+`exit` : exit the command prompt<br>
+`filename.txt` : opens filename.txt in current directory in Notepad (or default .txt program)<br>
+`format z:` : format z drive [Ex: use to format a disc or flash drive]<br>
+`mkdir x` : make directory x in current directory<br>
+`move x y` : more or rename x to y<br>
+`q` : escapes sequential display of contents (i.e. the more parameter)<br>
+`rd x` : remove/delete directory x if it’s empty<br>
+`ren x y` : rename file x to y<br>
+`time` : change the time<br>
+`type file` : display the contents of the file ‘file’ (displays file contents in console)<br>
+`type file |more` : display the contents one line at a time<br>
 
 <br>
 
