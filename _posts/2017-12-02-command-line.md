@@ -33,7 +33,7 @@ The following is my command prompt reference/ cheat sheet in case I forget any o
 `cd x` : move to the current\x directory<br>
 `cd z:` : change to the z root directory (as opposed to c:)<br>
 `copy x y` : copy file x to directory y<br> 
-			 __Ex:__ (D:\games\galaga.exe C:\programs[\awesome.exe]), [ ] = optional<br>
+__Ex:__ (D:\games\galaga.exe C:\programs[\awesome.exe]), [ ] = optional<br>
 `copy file con` : display file contents in console<br>
 `copy con file.txt` : create text file in the console window, end with ctrl+z (^z or F6)<br>
 `date` : change the date<br>
@@ -41,7 +41,7 @@ The following is my command prompt reference/ cheat sheet in case I forget any o
 `del x` : deletes all files/folders fitting x<br>
 `del .` : deletes all files within current directory<br>
 `del *.*` : deletes all files within current directory<br>
-`dir` : display contents of current directory (Ex: dir [c:][\programs]), [] = optional<br>
+`dir` : display contents of current directory (__Ex:__ dir [c:][\programs]), [ ] = optional<br>
 `dir *.txt` : list all .txt files in current directory<br>
 `dir *.?` : list all files with extensions one character in length in current directory<br>
 `dir /w /p *.*` : display all contents one screen at a time<br>
@@ -53,7 +53,7 @@ The following is my command prompt reference/ cheat sheet in case I forget any o
 `erase` : delete/erase<br>
 `exit` : exit the command prompt<br>
 `filename.txt` : opens filename.txt in current directory in default .txt program<br>
-`format z:` : format z drive [Ex: use to format a disc or flash drive]<br>
+`format z:` : format z drive __Ex:__ use to format a disc or flash drive<br>
 `mkdir x` : make directory x in current directory<br>
 `move x y` : more or rename x to y<br>
 `q` : escapes sequential display of contents (i.e. the more parameter)<br>
