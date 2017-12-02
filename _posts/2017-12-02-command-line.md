@@ -12,9 +12,8 @@ The following is my command prompt reference/cheat sheet in case I forget any of
 <p style="text-align:center"> More information: <a href="http://simplyadvanced.net/blog/cheat-sheet-for-windows-command-prompt/">here</a></p>
 
 </div>
-
 <br>
-#### To Open the Windows Command Prompt do any of the following:
+### To Open the Windows Command Prompt do any of the following:
 * Click Start -> Programs -> Accessories -> Command Prompt
 * Click Start (or hit the Windows key), type “cmd” in search, then hit [ENTER]
 * Windows Key + R (#r, not the pound symbol) brings up Run. Then type “cmd” then [ENTER]
@@ -78,9 +77,9 @@ Unacceptable characters: ```| < > \ ^ + = ? / [ ] ” ; , * : %```<br>
 `?` = wildcard for any single character<br>
 `*` = wildcard for any/all characters/files<br>
 `>` = redirects output to (overwrite) a file or device<br>
-`»` = redirects output to (append to) a file or device
-`<` = directs data from a file or device to a program or device
-`«` = directs additional data from a file or device to a program or device
-`nul` = black hole
+`»` = redirects output to (append to) a file or device<br>
+`<` = directs data from a file or device to a program or device<br>
+`«` = directs additional data from a file or device to a program or device<br>
+`nul` = black hole<br>
 
 <br>
