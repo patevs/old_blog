@@ -8,6 +8,9 @@ You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll w
 
 ## Here is a list of some Bash/Shell commands
 
+
+<p style="text-align:center"> More information: <a href="https://www.codecademy.com/articles/command-line-commands">here</a></p>
+
 # Basic Commands
 `ls -a` or `dir /A` : lists contents of working direcotry, including hidden files and directories
 
