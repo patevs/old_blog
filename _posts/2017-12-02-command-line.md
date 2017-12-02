@@ -5,7 +5,7 @@ subtitle: Developing Command Line Skills
 ---
 
 <div style="border-bottom:1px solid black">
-The Windows _C_ommand _L_ine _I_nterface (CLI) is an essential and powerful tool for any developer. The command
+The Windows <strong>C</strong>ommand <strong>L</strong>ine <strong>I</strong>nterface (CLI) is an essential and powerful tool for any developer. The command
 line gives a user or client a means of interacting with a computer program through the issuing of 
 commands to the program in the form of successive lines of text (commands).<br>
 
@@ -42,19 +42,19 @@ The following is my command prompt reference/ cheat sheet in case I forget any o
 
 `rm -r` : removes directories
 
-`x /?` = provides syntax info and complete list of all parameters for x (a command, like “cd”)
-`cd` = change directory
-`cd ..` = move to the parent directory
-`cd\` = move to the root of current drive
-`cd x` = move to the current\x directory
-`cd z:` = change to the z root directory (as opposed to c:)
-`copy x y` = copy file x to directory y (Ex: D:\games\galaga.exe C:\programs[\awesome.exe]), [] = optional
-`copy file con` = display file contents in console
-copy con file.txt = create text file in the console window, end with ctrl+z (^z or F6)
-date = change the date
-del = delete/erase
-del x = deletes all files/folders fitting x
-del . = deletes all files within current directory
+`x /?` : provides syntax info & complete list of all params for x (a command, like “cd”)<br>
+`cd` : change directory<br>
+`cd ..` : move to the parent directory<br>
+`cd\` : move to the root of current drive<br>
+`cd x` : move to the current\x directory<br>
+`cd z:` : change to the z root directory (as opposed to c:)<br>
+`copy x y` : copy file x to directory y (Ex: D:\games\galaga.exe C:\programs[\awesome.exe]), [] = optional<br>
+`copy file con` : display file contents in console<br>
+copy con file.txt : create text file in the console window, end with ctrl+z (^z or F6)<br>
+date : change the date<br>
+del = delete/erase<br>
+del x = deletes all files/folders fitting x<br>
+del . = deletes all files within current directory<br>
 del *.* = deletes all files within current directory
 dir = display contents of current directory (Ex: dir [c:][\programs]), [] = optional
 dir *.txt = list all .txt files in current directory
