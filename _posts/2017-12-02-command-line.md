@@ -52,7 +52,7 @@ The following is my command prompt reference/ cheat sheet in case I forget any o
 `echo sometext > somefile.txt` : overwrites file with sometext<br>
 `erase` : delete/erase<br>
 `exit` : exit the command prompt<br>
-`filename.txt` : opens filename.txt in current directory in Notepad (or default .txt program)<br>
+`filename.txt` : opens filename.txt in current directory in default .txt program<br>
 `format z:` : format z drive [Ex: use to format a disc or flash drive]<br>
 `mkdir x` : make directory x in current directory<br>
 `move x y` : more or rename x to y<br>
