@@ -63,7 +63,6 @@ __Ex:__ (D:\games\galaga.exe C:\programs[\awesome.exe]), [ ] = optional<br>
 `type file` : display the contents of the file ‘file’ (displays file contents in console)<br>
 `type file |more` : display the contents one line at a time<br>
 <br>
-
 <br>
 # Redirection Commands
 `>` : redirects stdout of a command to a file<br>
@@ -71,17 +70,17 @@ __Ex:__ (D:\games\galaga.exe C:\programs[\awesome.exe]), [ ] = optional<br>
 `<` : redirects stdin to a command<br>
 `|` : redirects stdout of a command to another command<br>
 <br>
-
 <br>
 # Miscellaneous
-Acceptable characters: A-Z a-z 0-9 $ # & @ ! ( ) – { } ‘ \` _ ~
-Unacceptable characters: | < > \ ^ + = ? / [ ] ” ; , * : %
+Acceptable characters: ```A-Z a-z 0-9 $ # & @ ! ( ) – { } ‘ ` _ ~```<br>
+Unacceptable characters: ```| < > \ ^ + = ? / [ ] ” ; , * : %```<br>
+<br>
+`?` = wildcard for any single character<br>
+`*` = wildcard for any/all characters/files<br>
+`>` = redirects output to (overwrite) a file or device<br>
+`»` = redirects output to (append to) a file or device
+`<` = directs data from a file or device to a program or device
+`«` = directs additional data from a file or device to a program or device
+`nul` = black hole
 
-? = wildcard for any single character
-* = wildcard for any/all characters/files
-> = redirects output to (overwrite) a file or device
-» = redirects output to (append to) a file or device
-< = directs data from a file or device to a program or device
-« = directs additional data from a file or device to a program or device
-nul = black hole
 <br>
