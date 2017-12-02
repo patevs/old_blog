@@ -18,10 +18,12 @@ The following is my command prompt reference in case I forget any of it. This ca
 <br>
 
 #### To Open the Windows Command Prompt do any of the following:
-1. Click Start -> Programs -> Accessories -> Command Prompt
-2. Click Start (or hit the Windows key), type “cmd” in search, then hit [ENTER]
-3. Windows Key + R (#r, not the pound symbol) brings up Run. Then type “cmd” then [ENTER]
-4. SHIFT + right-click in any folder or desktop, then select “open command window here”
+<br>
+* Click Start -> Programs -> Accessories -> Command Prompt
+* Click Start (or hit the Windows key), type “cmd” in search, then hit [ENTER]
+* Windows Key + R (#r, not the pound symbol) brings up Run. Then type “cmd” then [ENTER]
+* SHIFT + right-click in any folder or desktop, then select “open command window here”
+<br>
 <br>
 
 # Basic Commands
