@@ -13,7 +13,8 @@ The following is my command prompt reference/cheat sheet in case I forget any of
 
 </div>
 <br>
-### To Open the Windows Command Prompt do any of the following:
+
+### To Open the Windows CLI do any of the following:
 * Click Start -> Programs -> Accessories -> Command Prompt
 * Click Start (or hit the Windows key), type “cmd” in search, then hit [ENTER]
 * Windows Key + R (#r, not the pound symbol) brings up Run. Then type “cmd” then [ENTER]
@@ -61,14 +62,15 @@ __Ex:__ (D:\games\galaga.exe C:\programs[\awesome.exe]), [ ] = optional<br>
 `rd x` : remove/delete directory x if it’s empty<br>
 `ren x y` : rename file x to y<br>
 `time` : change the time<br>
-`file` : display the contents of the file ‘file’ (displays file contents in console)
-`file |more` : display the contents one line at a time
+`file` : display the contents of the file ‘file’ (displays file contents in console)<br>
+`file |more` : display the contents one line at a time<br>
 <br>
+
 # Advanced Command Prompt Commands
 `ipconfig [/all]` : display network adapter information (advanced)<br>
 `netstat –n` : display local address and addresses you are connected to (advanced)<br>
 `netstat –nb` : above with name of foreign addresses (advanced)<br> 
-(this shows your private IP, if you are behind a router or proxy, then your public IP address will be different)<br>
+This shows your private IP, if you are behind a router or proxy, then your public IP address will be different<br>
 `ping google.com` : how long it takes for your computer to talk to google.com<br>
 <br>
 
@@ -86,18 +88,21 @@ Unacceptable characters:<br> ```| < > \ ^ + = ? / [ ] ” ; , * : %```<br>
 `nul` : black hole<br>
 <br>
 
+<br>
 # Convert output of one process into the input of another process
 Send contents of script.js to the system debug.exe file:<br>
 1. `script.js | c:\programs]debug.exe`
 2. `programs\debug.exe < script.js`
 <br>
 
+<br>
 # Send directory listing to a printer or file
 1. `dir > prn` (theoretically to a printer)
 2. `dir > somefile.txt`
 3. `dir *.mp3 > c:\Users\Dan\Desktop\musiclist.txt` : print all .mp3 files in current directory to musiclist.txt
 <br>
 
+<br>
 # Customize the DOS command prompt
 `prompt /?` : display prompt options<br>
 `prompt $p$g` : display current directory followed by a greater-than symbol (Windows default)<br>
@@ -107,13 +112,10 @@ Send contents of script.js to the system debug.exe file:<br>
 <br>
 `color 0a` : change prompt color to matrix green and screen color to black<br>
 `color 84` : change colors to red on grey<br>
-<br>
 
 | 0 : black | 3 : cyan | 6 : yellow | 9 : bright blue |
 | 1 : blue | 4 : red | 7 : white | a : bright green |
 | 2 : green | 5 : magenta | 8 : grey | b : bright cyan |
 | c : bright red | d : bright magenta | e bright yellow | f : bright white |
-
-<br>
 
 <br>
