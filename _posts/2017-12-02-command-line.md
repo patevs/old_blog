@@ -61,37 +61,42 @@ __Ex:__ (D:\games\galaga.exe C:\programs[\awesome.exe]), [ ] = optional<br>
 `rd x` : remove/delete directory x if it’s empty<br>
 `ren x y` : rename file x to y<br>
 `time` : change the time<br>
-`type file` : display the contents of the file ‘file’ (displays file contents in console)
-`type file |more` : display the contents one line at a time
+`file` : display the contents of the file ‘file’ (displays file contents in console)
+`file |more` : display the contents one line at a time
 <br>
 # Advanced Command Prompt Commands
 `ipconfig [/all]` : display network adapter information (advanced)<br>
 `netstat –n` : display local address and addresses you are connected to (advanced)<br>
-`netstat –nb` : above with name of foreign addresses (advanced) (this shows your private IP, if you are behind a router or proxy, then your public IP address will be different)<br>
+`netstat –nb` : above with name of foreign addresses (advanced)<br> 
+(this shows your private IP, if you are behind a router or proxy, then your public IP address will be different)<br>
 `ping google.com` : how long it takes for your computer to talk to google.com<br>
 <br>
+
 # Miscellaneous
-Acceptable characters: ```A-Z a-z 0-9 $ # & @ ! ( ) – { } ‘ ` _ ~```<br>
-Unacceptable characters: ```| < > \ ^ + = ? / [ ] ” ; , * : %```<br>
+Acceptable characters:<br> ```A-Z a-z 0-9 $ # & @ ! ( ) – { } ‘ ` _ ~```<br>
+Unacceptable characters:<br> ```| < > \ ^ + = ? / [ ] ” ; , * : %```<br>
 <br>
-`?` = wildcard for any single character<br>
-`*` = wildcard for any/all characters/files<br>
-`>` = redirects output to (overwrite) a file or device<br>
-`»` = redirects output to (append to) a file or device<br>
+`?` : wildcard for any single character<br>
+`*` : wildcard for any/all characters/files<br>
+`>` : redirects output to (overwrite) a file or device<br>
+`»` : redirects output to (append to) a file or device<br>
 `|` : redirects stdout of a command to another command<br>
-`<` = directs data from a file or device to a program or device<br>
-`«` = directs additional data from a file or device to a program or device<br>
-`nul` = black hole<br>
+`<` : directs data from a file or device to a program or device<br>
+`«` : directs additional data from a file or device to a program or device<br>
+`nul` : black hole<br>
 <br>
+
 # Convert output of one process into the input of another process
 Send contents of script.js to the system debug.exe file:<br>
 1. `script.js | c:\programs]debug.exe`
-2. `programs\debug.exe < script.js`<br>
+2. `programs\debug.exe < script.js`
+<br>
 
 # Send directory listing to a printer or file
 1. `dir > prn` (theoretically to a printer)
 2. `dir > somefile.txt`
 3. `dir *.mp3 > c:\Users\Dan\Desktop\musiclist.txt` : print all .mp3 files in current directory to musiclist.txt
+<br>
 
 # Customize the DOS command prompt
 `prompt /?` : display prompt options<br>
@@ -104,25 +109,11 @@ Send contents of script.js to the system debug.exe file:<br>
 `color 84` : change colors to red on grey<br>
 <br>
 
-| Ten | b : bright cyan | 9 : bright blue |
-| 7 : white | 8 : grey | 6 : yellow |
-| 2 : green | 3 : cyan | 1 : black |
+| 0 : black | 3 : cyan | 6 : yellow | 9 : bright blue |
+| 1 : blue | 4 : red | 7 : white | a : bright green |
+| 2 : green | 5 : magenta | 8 : grey | b : bright cyan |
+| c : bright red | d : bright magenta | e bright yellow | f : bright white |
 
 <br>
-0 = black
-1 = blue
-2 = green
-3 = cyan
-4 = red
-5 = magenta
-6 = yellow
-7 = white
-8 = grey
-9 = bright blue
-a = bright green
-b = bright cyan
-c = bright red
-d = bright magenta
-e = bright yellow
-f = bright white
+
 <br>
