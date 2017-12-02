@@ -49,25 +49,20 @@ __Ex:__ (D:\games\galaga.exe C:\programs[\awesome.exe]), [ ] = optional<br>
 `echo` : send command line input to display (by default)<br>
 `echo sometext » somefile.txt` : append line(s) of text to any file<br>
 `echo sometext > somefile.txt` : overwrites file with sometext<br>
+<br>
 `erase` : delete/erase<br>
 `exit` : exit the command prompt<br>
 `filename.txt` : opens filename.txt in current directory in default .txt program<br>
 `format z:` : format z drive __Ex:__ use to format a disc or flash drive<br>
+<br>
 `mkdir x` : make directory x in current directory<br>
 `move x y` : more or rename x to y<br>
 `q` : escapes sequential display of contents (i.e. the more parameter)<br>
 `rd x` : remove/delete directory x if it’s empty<br>
 `ren x y` : rename file x to y<br>
 `time` : change the time<br>
-`type file` : display the contents of the file ‘file’ (displays file contents in console)<br>
-`type file |more` : display the contents one line at a time<br>
-<br>
-<br>
-# Redirection Commands
-`>` : redirects stdout of a command to a file<br>
-`>>` : redirects stdout of a command to a file, appending the new content<br>
-`<` : redirects stdin to a command<br>
-`|` : redirects stdout of a command to another command<br>
+`type file` : display the contents of the file ‘file’ (displays file contents in console)
+`type file |more` : display the contents one line at a time
 <br>
 <br>
 # Miscellaneous
@@ -78,8 +73,10 @@ Unacceptable characters: ```| < > \ ^ + = ? / [ ] ” ; , * : %```<br>
 `*` = wildcard for any/all characters/files<br>
 `>` = redirects output to (overwrite) a file or device<br>
 `»` = redirects output to (append to) a file or device<br>
+`|` : redirects stdout of a command to another command<br>
 `<` = directs data from a file or device to a program or device<br>
 `«` = directs additional data from a file or device to a program or device<br>
 `nul` = black hole<br>
+<br>
 
 <br>
