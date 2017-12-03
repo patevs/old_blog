@@ -53,10 +53,15 @@ ___
 <br>
 __Cross:__<br>
 * Sart solving the last layer making a yellow cross on the top of the cube. At this point we don't have to pay attention to the colours of the sides.
-* We can get three possible patterns on the top. Use this algorithm to go from one state to the other: 
+
+* We can get three possible patterns on the top: 
+![patterns](https://ruwix.com/pics/solution/11.png)
+
+* Use this algorithm to go from one state to the other:
+<img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" />
 
 __Cross Sides:__<br>
-After making the yellow cross on the top of the cube you have to put the yellow edge pieces on their final places to match the colours of the side center pieces. Switch the front and left yellow edges with the following algorithm:
+* After making the yellow cross on the top of the cube you have to put the yellow edge pieces on their final places to match the colours of the side center pieces. Switch the front and left yellow edges with the following algorithm:
 
 __Corners:__<br>
 1. Only the last layer corners are left unsolved. First we have to get them to the right spot, so don't worry about the orientation in this step.
