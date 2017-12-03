@@ -18,6 +18,7 @@ Rubik's Cube is a 3-D combination puzzle invented in 1974 by Ernő Rubik. Origin
 ## Stage One : Solve One Face
 
 | __Stage One Goal__ | |
+| ------------------ | --- |
 | ![Hint 1](https://ruwix.com/pics/solution/01.png) | ![Stage One](https://ruwix.com/pics/solution/03.png) | 
 
 If you have trouble with this step, take a look at the animated algorithms about solving first layer of the Rubik's Cube [here](
@@ -27,8 +28,10 @@ ____
 <br>
 ## Stage Two : Solve Two Layers
 
-| __Stage Two Goal__| Reference Left | Reference Right |
+| __Stage Two Goal__ | Reference Left | Reference Right |
+| ------------------ | -------------- | --------------- |
 | ![Stage Two](https://ruwix.com/pics/solution/07.png) | ![Reference One](https://ruwix.com/pics/solution/09.png) | ![Reference Two](https://ruwix.com/pics/solution/08.png) |
+
 
 | __Reference Left__ | <img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" /> |
 | __Reference Right__ | <img src="/img/rubik_stage_2_ref_right.png" style="border:px solid black" /> |
@@ -37,7 +40,8 @@ ___
 <br>
 ## Stage Three : Solve Cube
 
-| Cross | Corners | Solved |
+| Cross | Corners | __Solved__ |
+| ----- | ------- | ---------- |
 | ![Cross](https://ruwix.com/pics/solution/12.png) | ![Corners](https://ruwix.com/pics/solution/16.png) | ![Solved](https://ruwix.com/pics/solution/17.png) |
 
 
