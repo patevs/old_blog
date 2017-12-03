@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Guide to Solving the 3x3 Rubik's Cube
-subtitle: An Overview and Algorithms
 ---
 
 <div style="border-bottom:1px solid black">
