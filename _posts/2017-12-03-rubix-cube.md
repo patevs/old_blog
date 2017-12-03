@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Guide to Solving the 3x3 Rubik's Cube
+title: Guide to Solving the 3x3
+subtitle: Rubik's Cube
 ---
 
 <div style="border-bottom:1px solid black">
 <p>
-Rubik's Cube is a 3-D combination puzzle invented in 1974 by Ernő Rubik. Originally called the Magic Cube, the puzzle was licensed by Rubik to be sold by Ideal Toy Corp. in 1980, and won the German Game of the Year special award for Best Puzzle that year. As of January 2009, 350 million cubes had been sold worldwide making it the world's top-selling puzzle game.
+The Rubik's Cube is a 3-D combination puzzle invented in 1974 by Ernő Rubik. Originally called the Magic Cube, the puzzle was licensed by Rubik to be sold by Ideal Toy Corp. in 1980, and won the German Game of the Year special award for Best Puzzle that year. As of January 2009, 350 million cubes had been sold worldwide making it the world's top-selling puzzle game.
 </p>
 <p style="text-align:center"> More information: <a href="http://simplyadvanced.net/blog/cheat-sheet-for-windows-command-prompt/">here</a></p>
 </div>
@@ -43,7 +44,7 @@ For more help with stage two see animated algorithms: [here](https://ruwix.com/t
 
 ___
 <br>
-## Stage Three : Solve Cube
+## Stage Three : Solve The Cube
 
 | *Cross* | *Edges* | *Corners* | __Solved__ |
 | :---: | :---: | :---: | :---: |
@@ -74,11 +75,11 @@ ___
 | ![corners](https://ruwix.com/pics/solution/15.png) | <img src="/img/rubik_stage_3_corners.png" style="border:1px solid black" /> |
 
 ### Solve: 
-1. With all pieces in their right places you just have to orient the corner pieces to finish the puzzle. This proved to be the most complicated step so read the instructions bellow carefully.
-2. Hold the cube in your hand with an unsolved corner in the front-right-top corner, then do the algorithm below twice or four times until that specific piece is oriented correctly: <br>
+* With all pieces in their right places you just have to orient the corner pieces to finish the puzzle. This proved to be the most complicated step so read the instructions bellow carefully.
+1. Hold the cube in your hand with an unsolved corner in the front-right-top corner, then do the algorithm below twice or four times until that specific piece is oriented correctly: <br>
 <img src="/img/rubik_stage_3_final.png" style="border:1px solid black; display:block; margin:auto" /><br>
-3. Turn the top layer only to move another unsolved yellow piece to the front-right-top corner of the cube and do the same __R' D' R D__ algorithm again until this specific piece is ok. Be careful not to move the two bottom layers between the algorithms and never rotate the whole cube.
-4. Repeat this until your Cube is __solved__.
+2. Turn the top layer only to move another unsolved yellow piece to the front-right-top corner of the cube and do the same __R' D' R D__ algorithm again until this specific piece is ok. Be careful not to move the two bottom layers between the algorithms and never rotate the whole cube.
+3. Repeat this until your Cube is __solved__.
 <br>
 
 ___
