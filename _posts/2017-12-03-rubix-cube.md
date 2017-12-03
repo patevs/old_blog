@@ -67,20 +67,19 @@ ___
 <img src="/img/rubik_stage_3_edges.png" style="border:1px solid black; margin:auto" />
 
 ### Corners:
-1. Only the last layer corners are left unsolved. First we have to get them to the right spot, so don't worry about the orientation in this step.
-2. Find a piece which is already in the right place, move it to the right-front-top corner then apply the following algorithm to switch (cycle) the three wrong pieces:
-
+* Only the last layer corners are left unsolved. First we have to get them to the right spot, so don't worry about the orientation in this step.
+* Find a piece which is already in the right place, move it to the right-front-top corner then apply the following algorithm to switch (cycle) the three wrong pieces:
+ 
  Reference | Algorithm
  :---: | :---:
 ![corners](https://ruwix.com/pics/solution/15.png) | <img src="/img/rubik_stage_3_corners.png" style="border:1px solid black" />
 
-3. With all pieces in their right places you just have to orient the corner pieces to finish the puzzle. This proved to be the most complicated step so read the instructions bellow carefully.
-4. Hold the cube in your hand with an unsolved corner in the front-right-top corner, then do the algorithm below twice or four times until that specific piece is oriented correctly: <br>
+1. With all pieces in their right places you just have to orient the corner pieces to finish the puzzle. This proved to be the most complicated step so read the instructions bellow carefully.
+2. Hold the cube in your hand with an unsolved corner in the front-right-top corner, then do the algorithm below twice or four times until that specific piece is oriented correctly: <br>
 <br>
-<img src="/img/rubik_stage_3_final.png" style="border:1px solid black; margin:auto" />
-<br>
-5. Turn the top layer only to move another unsolved yellow piece to the front-right-top corner of the cube and do the same __R' D' R D__ algorithm again until this specific piece is ok. Be careful not to move the two bottom layers between the algorithms and never rotate the whole cube.
-6. Repeat this until your Cube is __solved__.
+<img src="/img/rubik_stage_3_final.png" style="border:1px solid black; display:block; margin:auto" />
+3. Turn the top layer only to move another unsolved yellow piece to the front-right-top corner of the cube and do the same __R' D' R D__ algorithm again until this specific piece is ok. Be careful not to move the two bottom layers between the algorithms and never rotate the whole cube.
+4. Repeat this until your Cube is __solved__.
 <br>
 
 <br>
