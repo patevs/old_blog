@@ -29,9 +29,9 @@ ____
 ## Stage Two : Solve Two Layers
 Until this point the procedure was pretty straight forward but from now on we have to use algorithms. We can forget the completed white face so let's turn the cube upside down to focus on the unsolved side.
 
-| __Stage Two Goal__ | Reference Left | Reference Right |
+| *Reference Left* | *Reference Right* | __Stage Two Goal__ |
 | :---: | :---: | :---: |
-| ![Stage Two](https://ruwix.com/pics/solution/07.png) | ![Reference One](https://ruwix.com/pics/solution/09.png) | ![Reference Two](https://ruwix.com/pics/solution/08.png) | 
+| ![Reference One](https://ruwix.com/pics/solution/09.png) | ![Reference Two](https://ruwix.com/pics/solution/08.png) | ![Stage Two](https://ruwix.com/pics/solution/07.png) |
 
 In this step we are completing the first two layers (F2L). There are two symmetric algorithms we have to use in this step. They're called the Right and Left algorithms. These algorithms insert the Up-Front edge piece from the top layer in the middle layer not messing up the solved white face. See the images below:
 
@@ -46,7 +46,7 @@ ___
 <br>
 ## Stage Three : Solve Cube
 
-| Cross | Cross Sides | Corners | __Solved__ |
+| *Cross* | *Cross Sides* | *Corners* | __Solved__ |
 | :---: | :---: | :---: | :---: |
 | ![Cross](https://ruwix.com/pics/solution/12.png) | ![Sides](https://ruwix.com/pics/solution/13.png) | ![Corners](https://ruwix.com/pics/solution/16.png) | ![Solved](https://ruwix.com/pics/solution/17.png) |
 
@@ -55,14 +55,15 @@ ___
 * We can get three possible patterns on the top: <br>
 <br>
 ![patterns](https://ruwix.com/pics/solution/11.png)
+<br>
 * Use this algorithm to go from one state to the other: <br>
 <br>
 <img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" />
 
-__Cross Sides:__<br>
+### Cross Sides:
 * After making the yellow cross on the top of the cube you have to put the yellow edge pieces on their final places to match the colours of the side center pieces. Switch the front and left yellow edges with the following algorithm:
 
-__Corners:__<br>
+### Corners:
 1. Only the last layer corners are left unsolved. First we have to get them to the right spot, so don't worry about the orientation in this step.
 2. Find a piece which is already on the right place, move it to the right-front-top corner then apply the following algorithm to switch (cycle) the three wrong pieces marked on the image.
 3. All pieces are on their right places you just have to orient the yellow corner pieces to finish the puzzle. This proved to be the most complicated step so read the instructions carefully.
