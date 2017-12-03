@@ -93,7 +93,7 @@ ___
 
 	<label for="field2"><span>Email: <span class="required">*</span></span><input type="text" class="input-field" name="_replyto" value="" /></label>
 
-	<label for="field5"><span>Message/Feedback: <span class="required">*</span></span><textarea name="message" class="textarea-field"></textarea></label>
+	<label for="field5"><span>Feedback: <span class="required">*</span></span><textarea name="message" class="textarea-field"></textarea></label>
 
 	<label><span>&nbsp;</span><input type="submit" value="Send" /></label>
 </form>
