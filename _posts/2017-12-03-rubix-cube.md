@@ -32,9 +32,11 @@ ____
 | __Stage Two Goal__| Reference Left | Reference Right |
 | ![Stage Two](https://ruwix.com/pics/solution/07.png) | ![Reference One](https://ruwix.com/pics/solution/09.png) | ![Reference Two](https://ruwix.com/pics/solution/08.png) |
 
-<h3>Reference Left:</h3 style="vertical-align:text-bottom"><img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black; float:right">
+<h3>Reference Left:</h3 style="vertical-align:text-bottom"> 
+<img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black; float:right">
 
-<h3>Reference Right:</h3 style="vertical-align:bottom"><img src="/img/rubik_stage_2_ref_right.png" style="border:px solid black; float:right">
+<h3>Reference Right:</h3 style="vertical-align:bottom"> 
+<img src="/img/rubik_stage_2_ref_right.png" style="border:px solid black; float:right">
 
 ___
 
