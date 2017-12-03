@@ -83,8 +83,6 @@ ___
 <br>
 
 ___
-<br>
-
 <div class="form-style-2">
 <div class="form-style-2-heading">Provide your information and any feedback below.</div>
 <form action="https://formspree.io/ppevans11@gmail.com"
