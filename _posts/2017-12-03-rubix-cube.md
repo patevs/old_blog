@@ -30,10 +30,10 @@ ____
 | ![Stage Two](https://ruwix.com/pics/solution/07.png) | ![Reference One](https://ruwix.com/pics/solution/09.png) | ![Reference Two](https://ruwix.com/pics/solution/08.png) |
 
 
-| Stage Two Reference | Algorithm |
-| --- | --- |
-| Reference Left | <img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" /> |
-| Reference Right | <img src="/img/rubik_stage_2_ref_right.png" style="border:px solid black" /> |
+| Reference | Algorithm |
+| :---: | :---: |
+| Left | <img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" /> |
+| Right | <img src="/img/rubik_stage_2_ref_right.png" style="border:px solid black" /> |
 
 For more help with stage two see the animated algorithms: [here](https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step3-second-layer-f2l/).
 
