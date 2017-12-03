@@ -68,6 +68,8 @@ ___
 
 ### Corners:
 1. Only the last layer corners are left unsolved. First we have to get them to the right spot, so don't worry about the orientation in this step.
-2. Find a piece which is already on the right place, move it to the right-front-top corner then apply the following algorithm to switch (cycle) the three wrong pieces marked on the image.
+2. Find a piece which is already on the right place, move it to the right-front-top corner then apply the following algorithm to switch (cycle) the three wrong pieces:<br>
+<br>
+<img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" />
 3. All pieces are on their right places you just have to orient the yellow corner pieces to finish the puzzle. This proved to be the most complicated step so read the instructions carefully.
 
