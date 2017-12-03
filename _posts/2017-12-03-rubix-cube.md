@@ -46,7 +46,7 @@ ___
 <br>
 ## Stage Three : Solve Cube
 
-| *Cross* | *Cross Sides* | *Corners* | __Solved__ |
+| *Cross* | *Edges* | *Corners* | __Solved__ |
 | :---: | :---: | :---: | :---: |
 | ![Cross](https://ruwix.com/pics/solution/12.png) | ![Sides](https://ruwix.com/pics/solution/13.png) | ![Corners](https://ruwix.com/pics/solution/16.png) | ![Solved](https://ruwix.com/pics/solution/17.png) |
 
@@ -54,14 +54,17 @@ ___
 * Sart solving the last layer making a yellow cross on the top of the cube. At this point we don't have to pay attention to the colours of the sides.
 * We can get three possible patterns on the top: <br>
 <br>
-![patterns](https://ruwix.com/pics/solution/11.png)
+![patterns](https://ruwix.com/pics/solution/11.png)<br>
 <br>
 * Use this algorithm to go from one state to the other: <br>
 <br>
 <img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" />
 
-### Cross Sides:
-* After making the yellow cross on the top of the cube you have to put the yellow edge pieces on their final places to match the colours of the side center pieces. Switch the front and left yellow edges with the following algorithm:
+### Edges:
+* After making the yellow cross on the top of the cube you have to put the yellow edge pieces on their final places to match the colours of the side center pieces. 
+* Switch the front and left edge pieces with the following algorithm: <br>
+<br>
+<img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" />
 
 ### Corners:
 1. Only the last layer corners are left unsolved. First we have to get them to the right spot, so don't worry about the orientation in this step.
