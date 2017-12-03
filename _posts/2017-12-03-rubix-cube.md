@@ -12,7 +12,6 @@ Rubik's Cube is a 3-D combination puzzle invented in 1974 by Ernő Rubik. Origin
 
 </div>
 <br>
-
 # How to Solve the 3x3 Rubik's Cube
 
 ## Stage One : Solve One Face
@@ -23,19 +22,25 @@ __Goal:__
 
 If you have trouble with this step, take a look at the animated algorithms about solving first layer of the Rubik's Cube [here](
 https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/step-1-first-layer-edges/).
-
+____
 
 ## Stage Two : Solve Two Layers
 
 __Goal:__
 
-| Stage Two Goal| Reference One | Reference Two |
+| Stage Two Goal| Reference Left | Reference Right |
 | ![Stage Two](https://ruwix.com/pics/solution/07.png) | ![Reference One](https://ruwix.com/pics/solution/09.png) | ![Reference Two](https://ruwix.com/pics/solution/08.png) |
 
-Reference One:
+Reference Left:
 ![Reference One](https://ruwix.com/pics/solution/09.png)
 
-Reference Two:
+Reference Right:
 ![Reference Two](https://ruwix.com/pics/solution/08.png)
+
+___
+
+## Stage Three : Solve 
+
+
 
 
