@@ -51,13 +51,11 @@ ___
 | ![Cross](https://ruwix.com/pics/solution/12.png) | ![Sides](https://ruwix.com/pics/solution/13.png) | ![Corners](https://ruwix.com/pics/solution/16.png) | ![Solved](https://ruwix.com/pics/solution/17.png) |
 
 <br>
-__Cross:__<br>
+#### Cross:
 * Sart solving the last layer making a yellow cross on the top of the cube. At this point we don't have to pay attention to the colours of the sides.
-
-* We can get three possible patterns on the top: 
+* We can get three possible patterns on the top: <br>
 ![patterns](https://ruwix.com/pics/solution/11.png)
-
-* Use this algorithm to go from one state to the other:
+* Use this algorithm to go from one state to the other: <br>
 <img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" />
 
 __Cross Sides:__<br>
