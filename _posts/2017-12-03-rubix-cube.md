@@ -30,8 +30,7 @@ ____
 | __Stage Two Goal__ | Reference Left | Reference Right |
 | ![Stage Two](https://ruwix.com/pics/solution/07.png) | ![Reference One](https://ruwix.com/pics/solution/09.png) | ![Reference Two](https://ruwix.com/pics/solution/08.png) |
 
-<br>
-
+___
 | __Reference Left__ | <img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" /> |
 | __Reference Right__ | <img src="/img/rubik_stage_2_ref_right.png" style="border:px solid black" /> |
 
@@ -52,6 +51,6 @@ __Corners:__
 1. Only the last layer corners are left unsolved. First we have to get them to the right spot, so don't worry about the orientation in this step.
 2. Find a piece which is already on the right place, move it to the right-front-top corner then apply the following algorithm to switch (cycle) the three wrong pieces marked on the image.
 
-__Solved:__
+__Solved:__<br>
 All pieces are on their right places you just have to orient the yellow corner pieces to finish the puzzle. This proved to be the most complicated step so read the instructions carefully.
 
