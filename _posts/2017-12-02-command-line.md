@@ -151,7 +151,7 @@ __Local machine variables for all users:__<br>
 `F6` : Enters the characters ^z (CTRL+z), indicating “end of file”<br>
 `F7` : Displays a history of command-line entries for the current session (50-line cache)<br>
 `F8` : Sequentially displays previous command-line entries<br>
-`F9` : Enables user to recall previous command lines by number (0 = first line<br>
+`F9` : Enables user to recall previous command lines by number (0 = first line)<br>
 <br>
 
 <br>

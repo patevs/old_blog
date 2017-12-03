@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 3x3 Rubik's Cube
-subtitle: How to Solve
+title: Guide to Solve the 3x3 Rubik's Cube
+subtitle: Overview and Algorithms
 ---
 
 <div style="border-bottom:1px solid black">
@@ -15,7 +15,7 @@ Rubik's Cube is a 3-D combination puzzle invented in 1974 by Ernő Rubik. Origin
 # How to Solve the 3x3 Rubik's Cube
 <br>
 ## Stage One : Solve One Face
-Let's begin with the white face. First we have to make a white cross paying attention to the colour of the side center pieces. The next step we have to arrange all the white corner pieces to finish the first face. This step is still intuitive, you can do it without learning a single algorithm, it just takes some practice. 
+Let's begin with the white face. First we have to make a white cross paying attention to the colour of the side center pieces. The next step we have to arrange all the white corner pieces to finish the first face. This step is still intuitive, you can do it without learning a single algorithm, it may just take some practice. 
 
 | | __Stage One Goal__ |
 | :---: | :---: |
@@ -58,23 +58,24 @@ ___
 <br>
 * Use this algorithm to go from one state (pattern) to the next: <br>
 <br>
-<img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" />
+<img src="/img/rubik_stage_3_cross.png" style="border:1px solid black" />
 
 ### Edges:
 * After making the yellow cross on the top of the cube you have to put the yellow edge pieces on their final places to match the colours of the side center pieces. 
 * Switch the front and left edge pieces with the following algorithm: <br>
 <br>
-<img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" />
+<img src="/img/rubik_stage_3_edges.png" style="border:1px solid black" />
 
 ### Corners:
 1. Only the last layer corners are left unsolved. First we have to get them to the right spot, so don't worry about the orientation in this step.
 2. Find a piece which is already on the right place, move it to the right-front-top corner then apply the following algorithm to switch (cycle) the three wrong pieces:<br>
 <br>
-<img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" />
+![corners](https://ruwix.com/pics/solution/15.png)
+<img src="/img/rubik_stage_3_corners.png" style="border:1px solid black" />
 <br>
 3. All pieces are on their right places you just have to orient the yellow corner pieces to finish the puzzle. This proved to be the most complicated step so read the instructions carefully.
 4. Hold the cube in your hand with an unsolved corner on the front-right-top corner, then do the algorithm below twice or four times until that specific piece is oriented well: <br>
-<img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" />
+<img src="/img/rubik_stage_3_final.png" style="border:1px solid black" />
 <br>
 5. Turn the top layer only to move another unsolved yellow piece to the front-right-top corner of the cube and do the same algorithm again until this specific piece is ok. Be careful not to move the two bottom layers between the algorithms and never rotate the whole cube.
 6. Repeat this until your Cube is __solved__.
