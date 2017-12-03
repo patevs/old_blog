@@ -17,7 +17,8 @@ Rubik's Cube is a 3-D combination puzzle invented in 1974 by Ernő Rubik. Origin
 ## Stage One : Solve One Face
 Let's begin with the white face. First we have to make a white cross paying attention to the colour of the side center pieces. The next step we have to arrange all the white corner pieces to finish the first face. This step is still intuitive, you can do it without learning a single algorithm. 
 
-| __Stage One Goal__ | |
+| | __Stage One Goal__ |
+| :---: | :---: |
 | ![Hint 1](https://ruwix.com/pics/solution/01.png) | ![Stage One](https://ruwix.com/pics/solution/03.png) | 
 
 For more help with stage one see animated algorithms: [here](
@@ -29,6 +30,7 @@ ____
 Until this point the procedure was pretty straight forward but from now on we have to use algorithms. We can forget the completed white face so let's turn the cube upside down to focus on the unsolved side.
 
 | __Stage Two Goal__ | Reference Left | Reference Right |
+| :---: | :---: | :---: |
 | ![Stage Two](https://ruwix.com/pics/solution/07.png) | ![Reference One](https://ruwix.com/pics/solution/09.png) | ![Reference Two](https://ruwix.com/pics/solution/08.png) | 
 
 In this step we are completing the first two layers (F2L). There are two symmetric algorithms we have to use in this step. They're called the Right and Left algorithms. These algorithms insert the Up-Front edge piece from the top layer in the middle layer not messing up the solved white face. See the images below:
@@ -45,6 +47,7 @@ ___
 ## Stage Three : Solve Cube
 
 | Cross | Cross Sides | Corners | __Solved__ |
+| :---: | :---: | :---: | :---: |
 | ![Cross](https://ruwix.com/pics/solution/12.png) | ![Sides](https://ruwix.com/pics/solution/13.png) | ![Corners](https://ruwix.com/pics/solution/16.png) | ![Solved](https://ruwix.com/pics/solution/17.png) |
 
 <br>
