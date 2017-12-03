@@ -30,6 +30,8 @@ ____
 | __Stage Two Goal__ | Reference Left | Reference Right |
 | ![Stage Two](https://ruwix.com/pics/solution/07.png) | ![Reference One](https://ruwix.com/pics/solution/09.png) | ![Reference Two](https://ruwix.com/pics/solution/08.png) |
 
+| Stage Two Reference | Algorithm |
+| --- | --- |
 | Reference Left | <img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" /> |
 | Reference Right | <img src="/img/rubik_stage_2_ref_right.png" style="border:px solid black" /> |
 
@@ -39,7 +41,7 @@ ___
 <br>
 ## Stage Three : Solve Cube
 
-| Cross | Sides | Corners | __Solved__ |
+| Cross | Cross Sides | Corners | __Solved__ |
 | ![Cross](https://ruwix.com/pics/solution/12.png) | ![Sides](https://ruwix.com/pics/solution/13.png) | ![Corners](https://ruwix.com/pics/solution/16.png) | ![Solved](https://ruwix.com/pics/solution/17.png) |
 
 <br>
@@ -48,7 +50,7 @@ __Cross:__
 
 2. After making the yellow cross on the top of the cube you have to put the yellow edge pieces on their final places to match the colours of the side center pieces. Switch the front and left yellow edges with the following algorithm:
 
-__Sides:__
+__Cross Sides:__
 1. 
 2. 
 
