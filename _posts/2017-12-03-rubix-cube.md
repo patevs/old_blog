@@ -15,6 +15,7 @@ Rubik's Cube is a 3-D combination puzzle invented in 1974 by Ernő Rubik. Origin
 # How to Solve the 3x3 Rubik's Cube
 <br>
 ## Stage One : Solve One Face
+Let's begin with the white face. First we have to make a white cross paying attention to the colour of the side center pieces. The next step we have to arrange all the white corner pieces to finish the first face. This step is still intuitive, you can do it without learning a single algorithm. 
 
 | __Stage One Goal__ | |
 | ![Hint 1](https://ruwix.com/pics/solution/01.png) | ![Stage One](https://ruwix.com/pics/solution/03.png) | 
@@ -25,11 +26,12 @@ https://ruwix.com/the-rubiks-cube/how-to-solve-the-rubiks-cube-beginners-method/
 ____
 <br>
 ## Stage Two : Solve Two Layers
+Until this point the procedure was pretty straight forward but from now on we have to use algorithms. We can forget the completed white face so let's turn the cube upside down to focus on the unsolved side.
 
 | __Stage Two Goal__ | Reference Left | Reference Right |
 | ![Stage Two](https://ruwix.com/pics/solution/07.png) | ![Reference One](https://ruwix.com/pics/solution/09.png) | ![Reference Two](https://ruwix.com/pics/solution/08.png) | 
 
-<br />
+In this step we are completing the first two layers (F2L). There are two symmetric algorithms we have to use in this step. They're called the Right and Left algorithms. These algorithms insert the Up-Front edge piece from the top layer in the middle layer not messing up the solved white face. See the images below:
 
 | Reference | Algorithm |
 | :---: | :---: |
@@ -47,7 +49,8 @@ ___
 
 <br>
 __Cross:__<br>
-Sart solving the last layer making a yellow cross on the top of the cube. At this point we don't have to pay attention to the colours of the sides.
+* Sart solving the last layer making a yellow cross on the top of the cube. At this point we don't have to pay attention to the colours of the sides.
+* We can get three possible patterns on the top. Use this algorithm to go from one state to the other: 
 
 __Cross Sides:__<br>
 After making the yellow cross on the top of the cube you have to put the yellow edge pieces on their final places to match the colours of the side center pieces. Switch the front and left yellow edges with the following algorithm:
@@ -55,7 +58,5 @@ After making the yellow cross on the top of the cube you have to put the yellow 
 __Corners:__<br>
 1. Only the last layer corners are left unsolved. First we have to get them to the right spot, so don't worry about the orientation in this step.
 2. Find a piece which is already on the right place, move it to the right-front-top corner then apply the following algorithm to switch (cycle) the three wrong pieces marked on the image.
-
-__Solved:__<br>
-All pieces are on their right places you just have to orient the yellow corner pieces to finish the puzzle. This proved to be the most complicated step so read the instructions carefully.
+3. All pieces are on their right places you just have to orient the yellow corner pieces to finish the puzzle. This proved to be the most complicated step so read the instructions carefully.
 
