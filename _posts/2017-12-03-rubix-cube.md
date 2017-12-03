@@ -56,7 +56,7 @@ ___
 <br>
 ![patterns](https://ruwix.com/pics/solution/11.png)<br>
 <br>
-* Use this algorithm to go from one state to the other: <br>
+* Use this algorithm to go from one state (pattern) to the next: <br>
 <br>
 <img src="/img/rubik_stage_2_ref_left.png" style="border:px solid black" />
 
