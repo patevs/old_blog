@@ -99,8 +99,6 @@ ___
 </form>
 </div>
 <br>
-
-<br>
 <style type="text/css">
 .form-style-2{
     max-width: 500px;
