@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rubix Cube
+title: Rubik's Cube
 subtitle: How to Solve
 ---
 
@@ -13,6 +13,12 @@ Rubik's Cube is a 3-D combination puzzle invented in 1974 by Ernő Rubik. Origin
 </div>
 <br>
 
-### To Open the Windows CLI do any of the following:
+# How to Solve the 3x3 Rubik's Cube
 
+## Stage One : One Face
 
+![Stage One](https://smhttp-ssl-62406.nexcesscdn.net/resources/images/solve-it/stage-3-goal.jpg)
+
+## Stage Two : Two Layers
+
+![Stage Two](https://smhttp-ssl-62406.nexcesscdn.net/resources/images/solve-it/stage-4-goal.jpg)
