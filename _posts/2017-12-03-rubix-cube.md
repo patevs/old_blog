@@ -54,7 +54,7 @@ ___
 * Sart solving the last layer making a yellow cross on the top of the cube. At this point we don't have to pay attention to the colours of the sides.
 * We can get three possible patterns on the top: <br>
 <br>
-![patterns](https://ruwix.com/pics/solution/11.png)<br>
+<img src="https://ruwix.com/pics/solution/11.png" style="display:block; margin:auto" />
 <br>
 * Use this algorithm to go from one state (pattern) to the next: <br>
 <br>
@@ -69,12 +69,11 @@ ___
 ### Corners:
 * Only the last layer corners are left unsolved. First we have to get them to the right spot, so don't worry about the orientation in this step.
 * Find a piece which is already in the right place, move it to the right-front-top corner then apply the following algorithm to switch (cycle) the three wrong pieces:
-<center>
+
 | Reference | Algorithm |
 | :---: | :---: |
 | ![corners](https://ruwix.com/pics/solution/15.png) | <img src="/img/rubik_stage_3_corners.png" style="border:1px solid black" /> |
-</center>
-<br>
+
 1. With all pieces in their right places you just have to orient the corner pieces to finish the puzzle. This proved to be the most complicated step so read the instructions bellow carefully.
 2. Hold the cube in your hand with an unsolved corner in the front-right-top corner, then do the algorithm below twice or four times until that specific piece is oriented correctly: <br>
 <img src="/img/rubik_stage_3_final.png" style="border:1px solid black; display:block; margin:auto" /><br>
