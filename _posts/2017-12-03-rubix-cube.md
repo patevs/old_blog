@@ -38,7 +38,9 @@ ____
 ___
 
 ## Stage Three : Solve Cube
-<br>
+
+| Cross | Corners | Solved |
+| ![Cross](https://ruwix.com/pics/solution/12.png) | ![Corners](https://ruwix.com/pics/solution/16.png) | ![Solved](https://ruwix.com/pics/solution/17.png) |
 
 
 
