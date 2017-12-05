@@ -84,14 +84,14 @@ ___
 
 ___
 <div class="form-style-2">
-<div class="form-style-2-heading">Provide your information and any feedback below.</div>
+<div class="form-style-2-heading">If you have any comments/questions/feedback please provide your information and message below.</div>
 <form action="https://formspree.io/ppevans11@gmail.com"
       method="POST">
 	<label for="field1"><span>Name: <span class="required">*</span></span><input type="text" class="input-field" name="name" value="" /></label>
 
 	<label for="field2"><span>Email: <span class="required">*</span></span><input type="text" class="input-field" name="_replyto" value="" /></label>
 
-	<label for="field5"><span>Feedback: <span class="required">*</span></span><textarea name="message" class="textarea-field"></textarea></label>
+	<label for="field5"><span>Message: <span class="required">*</span></span><textarea name="message" class="textarea-field"></textarea></label>
 
 	<label><span>&nbsp;</span><input type="submit" value="Send" /></label>
 </form>
@@ -148,7 +148,7 @@ ___
 }
 .form-style-2 .input-field:focus, 
 .form-style-2 .textarea-field:focus{
-    border: 1px solid #0C0;
+    border: 1px solid #0000ff;
 }
 .form-style-2 .textarea-field{
     height:100px;
