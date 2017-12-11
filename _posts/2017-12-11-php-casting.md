@@ -13,6 +13,7 @@ I call this process <i>casting the joint</i> because it involves taking a basic 
 
 # Casting the Joint
 
+
 ## Whitespace, Comments, and Basic Syntax
 As far as PHP is concerned, whitespace is ignored when code is sent to the interpreter. This means that all comments and black lines are effectivey stripped out of the code file as it is running.
 
@@ -31,6 +32,7 @@ As far as PHP is concerned, whitespace is ignored when code is sent to the inter
 ```
 
 
+
 ## Variables: Data Types, Loose Typing, and Scope
 Variables can hold different kinds of data, but they are always established the same way. Use the following rules when defining a PHP variable:
 
@@ -45,7 +47,6 @@ Variables can hold different kinds of data, but they are always established the 
 
 A _data type_ is simply that: a type of data. These types come with various restrictions on the structure, interpretation, or operations that may be performed on the data. In PHP, there are eight basic (_primitive_) variable types catagorised into segments: _scalar_, _compound_, and _special_.
 
-##### PHP data types
 | __Segment__ | __Type__ | __Discription/example__ |
 | :---: | :---: | :---: |
 | Scalar types | Boolean | Logical TRUE or FALSE |
@@ -56,7 +57,6 @@ A _data type_ is simply that: a type of data. These types come with various rest
 |  | Object | The basics for class definition and object-oriented programming |
 | Special types | NULL | Defines a variable with no value; the variable exists; but contains nothing. |
 |  | Resource | Stores a reference to functions, databases, or other resources outside of PHP |
-
 
 
 ```php
