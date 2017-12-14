@@ -69,27 +69,42 @@ A _data type_ is simply that: a type of data. These types come with various rest
 	echo $fname . "<br>" ; // Peter is displayed
 	$fname = "Dawn" ;      // change reference value
 	echo $firstname . "<br>" ; // Dawn is displayed, not Peter
-				// because of the "by reference"  
+				  // because of the "by reference"  
 ?>
 ```
 
+<br>
 
-##Defined Constants
+## Defined Constants
+Close cousin to variables.
+* define()
+* Letter and underscores
+* Case-sensitive
+* Restrictions
+* Syntax
 
-##Expressions
+## Expressions
+~~~php
 
-##Control Flow
-####If...Else
-####Switch...Case...
-####While...
-####For
 
-##Integration with Web Pages
-####Cookies
-####Session
-####`$_GET`
-####`$_POST`
-####`$_REQUEST`
+~~~
+
+
+## Control Flow
+#### If...Else
+#### Switch...Case...
+#### While...
+#### For
+
+## Integration with Web Pages
+#### Cookies
+#### Session
+#### `$_GET`
+#### `$_POST`
+#### `$_REQUEST`
+
+
+
 
 
 #Functions
