@@ -44,7 +44,7 @@ Variables can hold different kinds of data, but they are always established the 
 
 * _Letter or underscore_<br>
     After the dollar sign the next character must be a letter or an underscore; after this, the remainder of the variable name can be any combination of letters, numbers, and underscores.
-    
+
 * `$this`<br>
     The variable named `$this` is reserved for use in Object Oriented PHP, so it can't be used elsewhere.
 
@@ -72,6 +72,45 @@ A _data type_ is simply that: a type of data. These types come with various rest
 					// because of the "by reference"  
 ?>
 ```
+
+<br>
+
+##Defined Constants
+
+##Expressions
+
+##Control Flow
+####If...Else
+####Switch...Case...
+####While...
+####For
+
+##Integration with Web Pages
+####Cookies
+####Session
+####`$_GET`
+####`$_POST`
+####`$_REQUEST`
+
+
+#Functions
+###Parameter Passing
+###Default Parameters
+###Pass by Value vs. Pass by Reference
+###Include and Require
+###Built in Functions. UDF
+
+#Strings
+###String functions
+#Arrays
+#Objects
+#Database
+#Security
+#Advanced
+###Regular Expressions
+###XML
+###Websites
+
 
 
 
