@@ -69,11 +69,10 @@ A _data type_ is simply that: a type of data. These types come with various rest
 	echo $fname . "<br>" ; // Peter is displayed
 	$fname = "Dawn" ;      // change reference value
 	echo $firstname . "<br>" ; // Dawn is displayed, not Peter
-					// because of the "by reference"  
+				// because of the "by reference"  
 ?>
 ```
 
-<br>
 
 ##Defined Constants
 
