@@ -104,26 +104,28 @@ Close cousin to variables.
 #### `$_REQUEST`
 
 
+# Functions
+### Parameter Passing
+### Default Parameters
+### Pass by Value vs. Pass by Reference
+### Include and Require
+### Built in Functions. UDF
 
+# Strings
+### String functions
 
+# Arrays
 
-#Functions
-###Parameter Passing
-###Default Parameters
-###Pass by Value vs. Pass by Reference
-###Include and Require
-###Built in Functions. UDF
+# Objects
 
-#Strings
-###String functions
-#Arrays
-#Objects
-#Database
-#Security
-#Advanced
-###Regular Expressions
-###XML
-###Websites
+# Database
+
+# Security
+
+# Advanced
+### Regular Expressions
+### XML
+### Websites
 
 
 
