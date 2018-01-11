@@ -6,10 +6,11 @@ subtitle: Introduction
 
 <div style="border-bottom:1px solid black">
 <p>
-We’ll only need to install a few libraries to get going. To run our tests, we’ll need the Karma library and nodejs. It’s also a good idea to have git installed, although this is not a strict requirement.
+Createing web content with <strong>AngularJS</strong> requires the install of a few libraries to get going. To run our tests, we’ll need the Karma library and nodejs. It’s also a good idea to have git installed, although this is not a strict requirement.
 <br>
 </p>
  <p style="text-align:center"><a href="https://nodejs.org/en/download/">nodejs download</a></p>
+ <p style="text-align:center"><a href="https://git.org/en/download/">git download</a></p>
 </div>
 <br>
 
@@ -17,7 +18,7 @@ We’ll only need to install a few libraries to get going. To run our tests, we�
 
 The official AngularJS introduction describes AngularJS as a:
 
-client-side technology, written entirely in JavaScript. It works with the long-established technologies of the web (HTML, CSS, and JavaScript) to make the development of web apps easier and faster than ever before.
+> client-side technology, written entirely in JavaScript. It works with the long-established technologies of the web (HTML, CSS, and JavaScript) to make the development of web apps easier and faster than ever before.
 
 It is a framework that is primarily used to build single-page web applications. AngularJS makes it easy to build interactive, modern web applications by increasing the level of abstraction between the developer and common web app development tasks.
 
@@ -36,7 +37,7 @@ Additionally, the AngularJS team has made it a point to keep the library small w
 
 Due to the nature of JavaScript itself and how it passes by value vs. reference, its considered a bestpractice in Angular to bind references in the views by an attribute on an object, rather than the raw object itself.
 
-If we were to apply best practices to a clock example , we’d change the usage of the clock in our view to:
+If we were to apply best practices to a clock example:
 
 ```html
 <!doctype html>
@@ -78,11 +79,11 @@ Writing efficient, production-ready controllers by encapsulating our functionali
 In Angular, a module is the main way to define an AngularJS app. The module of an app is where we’ll contain all of our application code. An app can contain several modules, each one containing code that pertains to specific functionality.
 
 Using modules gives us a lot of advantages, such as:
-•	Keeping our global namespace clean
-•	Making tests easier to write and keeping them clean so as to more easily target isolated functionality
-•	Making it easy to share code between applications
-•	Allowing our app to load different parts of the code in any order
-•	The Angular module API allows us to declare a module using the angular.module() API method.s
+* Keeping our global namespace clean
+* Making tests easier to write and keeping them clean so as to more easily target isolated functionality
+* Making it easy to share code between applications
+* Allowing our app to load different parts of the code in any order
+* The Angular module API allows us to declare a module using the angular.module() API method.s
 
 When declaring a module, we need to pass two parameters to the method. The first is the name of the module we are creating. The second is the list of dependencies, otherwise known as injectables.
 
@@ -104,4 +105,4 @@ later reference.
 
 We can create our applications on top of the ```angular.module('myApp')``` variable.
 
-When writing large applications, we’ll create several different modules to contain our logic. Creating a module for each piece of functionality gives us the advantage of isolation in which to write and test large features. For more information on writing isolated modules per feature, check out the architecture chapter.
+When writing large applications, we’ll create several different modules to contain our logic. Creating a module for each piece of functionality gives us the advantage of isolation in which to write and test large features.
