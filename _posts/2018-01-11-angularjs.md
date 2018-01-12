@@ -31,7 +31,7 @@ It is a framework that is primarily used to build single-page web applications. 
 AngularJS augments HTML to give it native Model-View-Controller (MVC)
 capabilities. This choice, as it turns out, makes building impressive and expressive client-side applications quick and enjoyable.
 
-** MVC in AngularJS **
+**MVC in AngularJS**
 ![MVC in AngularJS](http://angularjstutorials.net/images/mvc/mvc-framework.png)
 
 <br>
