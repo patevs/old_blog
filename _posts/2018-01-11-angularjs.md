@@ -31,6 +31,10 @@ It is a framework that is primarily used to build single-page web applications. 
 AngularJS augments HTML to give it native Model-View-Controller (MVC)
 capabilities. This choice, as it turns out, makes building impressive and expressive client-side applications quick and enjoyable.
 
+** MVC in AngularJS **
+![MVC in Angular](http://angularjstutorials.net/images/mvc/mvc-framework.png)
+
+<br>
 It enables you, the developer, to encapsulate a portion of your entire page as one application, rather than forcing the entire page to be an AngularJS application. 
 This distinction is particularly beneficial if your workflow already includes another framework or if you want to make a portion of the page dynamic while the rest operates as a static page or is controlled by another JavaScript framework.
 
@@ -114,8 +118,10 @@ When writing large applications, we’ll create several different modules to con
 #### Module Properties
 
 Angular modules have properties that we can use to inspect the module.
+
 **name** (string)
 The __name__ property on the modules gives us the name of the module as a string.
+
 **requires** (array of strings)
 The __requires__ property contains a list of modules (as strings) that the injector loads before the module itself is loaded.
 
@@ -123,13 +129,14 @@ The __requires__ property contains a list of modules (as strings) that the injec
 ## Scopes in AngularJS
 
 The scopes of the application refer to the application model. Scopes are the execution context for expressions. The $scope object is where we define the business functionality of the application, the methods in our controllers, and properties in the views.
+
 Scopes serve as the glue between the controller and the view. Just before our app renders the view to the user, the view template links to the scope, and the app sets up the DOM to notify Angular for property changes. This feature makes it easy to account for promises, such as an XHR call, to be fulfilled. 
 
 **Scopes are the source of truth** for the application state. Because of this live binding, we can rely on the $scope to update immediately when the view modifies it, and we can rely on the view to update when the $scope changes.
 
 $scopes in AngularJS are arranged in a hierarchical structure that mimics the DOM and thus are nestable: We can reference properties on parent $scopes.
 
-> If you are familiar with JavaScript, then this hierarchical concept shouldn’t’t be foreign.
+> If you are familiar with JavaScript, then this hierarchical concept shouldn’t be foreign.
 When we create a new execution context in JavaScript, we create a new function that
 effectively creates a new “local” context. The Angular concept of $scopes is similar in
 that as we create a new scope for child DOM elements, we are creating a new execution
