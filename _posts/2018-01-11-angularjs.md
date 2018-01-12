@@ -6,8 +6,11 @@ subtitle: Introduction
 
 <div style="border-bottom:1px solid black">
 <p>
-Createing web content with <strong>AngularJS</strong> requires the install of a few libraries to get going. To run our tests, we’ll need the Karma library and nodejs. It’s also a good idea to have git installed, although this is not a strict requirement.
-<br>
+Createing web content with <strong>AngularJS</strong> requires the install of a few libraries to get going. <br>
+
+To run our tests, we’ll need the Karma library and nodejs. <br>
+
+It’s also a good idea to have git installed, although this is not a strict requirement. <br>
 </p>
  <p style="text-align:center"><a href="https://nodejs.org/en/download/">nodejs download</a></p>
  <p style="text-align:center"><a href="https://git.org/en/download/">git download</a></p>
@@ -30,6 +33,7 @@ capabilities. This choice, as it turns out, makes building impressive and expres
 
 It enables you, the developer, to encapsulate a portion of your entire page as one application, rather than forcing the entire page to be an AngularJS application. 
 This distinction is particularly beneficial if your workflow already includes another framework or if you want to make a portion of the page dynamic while the rest operates as a static page or is controlled by another JavaScript framework.
+
 Additionally, the AngularJS team has made it a point to keep the library small when compressed, (the compressed, minified version weighs in under 9KB at the time of this writing).
 
 
@@ -106,3 +110,29 @@ later reference.
 We can create our applications on top of the ```angular.module('myApp')``` variable.
 
 When writing large applications, we’ll create several different modules to contain our logic. Creating a module for each piece of functionality gives us the advantage of isolation in which to write and test large features.
+
+#### Module Properties
+
+Angular modules have properties that we can use to inspect the module.
+**name** (string)
+The __name__ property on the modules gives us the name of the module as a string.
+**requires** (array of strings)
+The __requires__ property contains a list of modules (as strings) that the injector loads before the module itself is loaded.
+
+
+## Scopes in AngularJS
+
+The scopes of the application refer to the application model. Scopes are the execution context for expressions. The $scope object is where we define the business functionality of the application, the methods in our controllers, and properties in the views.
+Scopes serve as the glue between the controller and the view. Just before our app renders the view to the user, the view template links to the scope, and the app sets up the DOM to notify Angular for property changes. This feature makes it easy to account for promises, such as an XHR call, to be fulfilled. 
+
+**Scopes are the source of truth** for the application state. Because of this live binding, we can rely on the $scope to update immediately when the view modifies it, and we can rely on the view to update when the $scope changes.
+
+$scopes in AngularJS are arranged in a hierarchical structure that mimics the DOM and thus are nestable: We can reference properties on parent $scopes.
+
+> If you are familiar with JavaScript, then this hierarchical concept shouldn’t’t be foreign.
+When we create a new execution context in JavaScript, we create a new function that
+effectively creates a new “local” context. The Angular concept of $scopes is similar in
+that as we create a new scope for child DOM elements, we are creating a new execution
+context for the DOM to live in.
+
+Scopes provide the ability to watch for model changes. They give the developer the ability to propagate model changes throughout the application by using the apply mechanism available on the scope. We define and execute expressions in the context of a scope; it is also from here that we can propagate events to other controllers and parts of the application. It is ideal to contain the application logic in a controller and the working data on the scope of the controller.
