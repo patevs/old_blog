@@ -6,7 +6,7 @@ subtitle: Introduction
 
 <div style="border-bottom:1px solid black">
 <p>
-Createing web content with <strong>AngularJS</strong> requires the install of a few libraries to get going. <br>
+Creating web content with <strong>AngularJS</strong> requires the install of a few libraries to get going. <br>
 
 To run our tests, we’ll need the Karma library and nodejs. <br>
 
@@ -32,7 +32,7 @@ AngularJS augments HTML to give it native Model-View-Controller (MVC)
 capabilities. This choice, as it turns out, makes building impressive and expressive client-side applications quick and enjoyable.
 
 ** MVC in AngularJS **
-![MVC in Angular](http://angularjstutorials.net/images/mvc/mvc-framework.png)
+![MVC in AngularJS](http://angularjstutorials.net/images/mvc/mvc-framework.png)
 
 <br>
 It enables you, the developer, to encapsulate a portion of your entire page as one application, rather than forcing the entire page to be an AngularJS application. 
@@ -142,4 +142,59 @@ effectively creates a new “local” context. The Angular concept of $scopes is
 that as we create a new scope for child DOM elements, we are creating a new execution
 context for the DOM to live in.
 
-Scopes provide the ability to watch for model changes. They give the developer the ability to propagate model changes throughout the application by using the apply mechanism available on the scope. We define and execute expressions in the context of a scope; it is also from here that we can propagate events to other controllers and parts of the application. It is ideal to contain the application logic in a controller and the working data on the scope of the controller.
+Scopes provide the ability to watch for model changes. They give the developer the ability to propagate model changes throughout the application by using the apply mechanism available on the scope. We define and execute expressions in the context of a scope; it is also from here that we can propagate events to other controllers and parts of the application. 
+It is ideal to contain the application logic in a controller and the working data on the scope of the controller.
+
+### What Can Scopes Do?
+
+Scopes have the following basic functions:
+
+* They provide observers to watch for model changes
+* They provide the ability to propagate model changes through the application as well as outside
+the system to other components
+* They can be nested such that they can isolate functionality and model properties
+* They provide an execution environment in which expressions are evaluated
+The majority of the work we’ll do in developing our Angular app is building out the functionality
+of a scope.
+
+> Scopes are objects that contain functionality and data to use when rendering the view.
+It is the single source of truth for all views. You can think of scopes as view models.
+
+We can set a variable name on the $rootScope and reference it in a view, like
+so:
+```javascript
+angular.module('myApp', [])
+.run(function($rootScope) {
+$rootScope.name = "World";
+});
+```
+
+And our view can now reference this name property to show to the user:
+
+```html
+<div ng-app="myApp">
+<h1>Hello {{ name }}</h1>
+</div>
+Instead of placing variables on the $rootScope, we can explicitly create a child $scope object using
+a controller. We can attach a controller object to a DOM element using the ng-controller directive
+on a DOM element, like so:
+<div ng-app="myApp">
+<div ng-controller="MyController">
+<h1>Hello {{ name }}</h1>
+</div>
+</div>
+```
+
+Now, instead of attaching the name variable on the $rootScope, we can create a controller that will
+manage our variable:
+
+```javascript
+angular.module("myApp", [])
+.controller('MyController',
+function($scope) {
+$scope.name = "Ari";
+});
+```
+
+The ng-controller directive creates a new $scope object for the DOM element and nests it in the
+containing $rootScope.
