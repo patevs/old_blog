@@ -177,7 +177,7 @@ And our view can now reference this name property to show to the user:
 
 ```html
 <div ng-app="myApp">
-<h1>Hello \{{ name }\}</h1>
+<h1>Hello \{{ name }}\</h1>
 </div>
 Instead of placing variables on the $rootScope, we can explicitly create a child $scope object using
 a controller. We can attach a controller object to a DOM element using the ng-controller directive 
