@@ -56,7 +56,7 @@ If we were to apply best practices to a clock example:
 </head>
 <body>
 <div ng-controller="MyController">
-<h1>Hello \{\{ clock.now \}\}!</h1>
+<h1>Hello \{{ clock.now }\}!</h1>
 </div>
 <script type="text/javascript" src="js/app.js"></script>
 </body>
@@ -176,14 +176,14 @@ And our view can now reference this name property to show to the user:
 
 ```html
 <div ng-app="myApp">
-<h1>Hello \{\{ name \}\}</h1>
+<h1>Hello \{{ name }\}</h1>
 </div>
 Instead of placing variables on the $rootScope, we can explicitly create a child $scope object using
 a controller. We can attach a controller object to a DOM element using the ng-controller directive 
 on a DOM element, like so:
 <div ng-app="myApp">
 <div ng-controller="MyController">
-<h1>Hello \{\{ name \}\}</h1>
+<h1>Hello \{{ name }\}</h1>
 </div>
 </div>
 ```
