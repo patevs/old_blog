@@ -56,7 +56,7 @@ If we were to apply best practices to a clock example:
 </head>
 <body>
 <div ng-controller="MyController">
-<h1>Hello \{{ clock.now }\}!</h1>
+<h1>Hello \{{ clock.now }}\!</h1>
 </div>
 <script type="text/javascript" src="js/app.js"></script>
 </body>
@@ -106,7 +106,7 @@ For instance, we can reference the myApp module like so:
 
 ```javascript
 // this method fetches the app
-angular.module('myApp')
+angular.module('myApp');
 ```
 
 This method is known as the getter method, whereby we can get the Angular module for
@@ -145,7 +145,8 @@ effectively creates a new “local” context. The Angular concept of $scopes is
 that as we create a new scope for child DOM elements, we are creating a new execution
 context for the DOM to live in.
 
-Scopes provide the ability to watch for model changes. They give the developer the ability to propagate model changes throughout the application by using the apply mechanism available on the scope. We define and execute expressions in the context of a scope; it is also from here that we can propagate events to other controllers and parts of the application. 
+Scopes provide the ability to watch for model changes. They give the developer the ability to propagate model changes throughout the application by using the apply mechanism available on the scope. 
+We define and execute expressions in the context of a scope; it is also from here that we can propagate events to other controllers and parts of the application. 
 It is ideal to contain the application logic in a controller and the working data on the scope of the controller.
 
 ### What Can Scopes Do?
@@ -183,7 +184,7 @@ a controller. We can attach a controller object to a DOM element using the ng-co
 on a DOM element, like so:
 <div ng-app="myApp">
 <div ng-controller="MyController">
-<h1>Hello \{{ name }\}</h1>
+<h1>Hello \{{ name }}\</h1>
 </div>
 </div>
 ```
