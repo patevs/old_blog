@@ -32,6 +32,7 @@ AngularJS augments HTML to give it native Model-View-Controller (MVC)
 capabilities. This choice, as it turns out, makes building impressive and expressive client-side applications quick and enjoyable.
 
 **MVC in AngularJS**
+
 ![MVC in AngularJS](http://angularjstutorials.net/images/mvc/mvc-framework.png)
 
 <br>
@@ -55,7 +56,7 @@ If we were to apply best practices to a clock example:
 </head>
 <body>
 <div ng-controller="MyController">
-<h1>Hello {{ clock.now }}!</h1>
+<h1>Hello \{\{ clock.now \}\}!</h1>
 </div>
 <script type="text/javascript" src="js/app.js"></script>
 </body>
@@ -120,9 +121,11 @@ When writing large applications, we’ll create several different modules to con
 Angular modules have properties that we can use to inspect the module.
 
 **name** (string)
+
 The __name__ property on the modules gives us the name of the module as a string.
 
 **requires** (array of strings)
+
 The __requires__ property contains a list of modules (as strings) that the injector loads before the module itself is loaded.
 
 
@@ -173,14 +176,14 @@ And our view can now reference this name property to show to the user:
 
 ```html
 <div ng-app="myApp">
-<h1>Hello {{ name }}</h1>
+<h1>Hello \{\{ name \}\}</h1>
 </div>
 Instead of placing variables on the $rootScope, we can explicitly create a child $scope object using
-a controller. We can attach a controller object to a DOM element using the ng-controller directive
+a controller. We can attach a controller object to a DOM element using the ng-controller directive 
 on a DOM element, like so:
 <div ng-app="myApp">
 <div ng-controller="MyController">
-<h1>Hello {{ name }}</h1>
+<h1>Hello \{\{ name \}\}</h1>
 </div>
 </div>
 ```
