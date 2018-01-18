@@ -4,20 +4,23 @@ title: AngularJS
 subtitle: Introduction
 ---
 
-<div style="border-bottom:1px solid black">
+<div style="border-bottom:1px solid black;">
 <p>
-Creating web content with <strong>AngularJS</strong> requires the install of a few libraries to get going. <br>
-
-To run our tests, we’ll need the Karma library and nodejs. <br>
-
-It’s also a good idea to have git installed, although this is not a strict requirement. <br>
+AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. AngularJS's data binding and dependency injection eliminate much of the code you would otherwise have to write. And it all happens within the browser, making it an ideal partner with any server technology.
 </p>
- <p style="text-align:center"><a href="https://nodejs.org/en/download/">nodejs download</a></p>
- <p style="text-align:center"><a href="https://git.org/en/download/">git download</a></p>
+<br>
+<p>
+Creating web content with <strong>AngularJS</strong> requires the install of a few libraries to get going.
+To run our tests, we’ll need the Karma library and <a href="https://nodejs.org/en/download/">nodejs</a>.
+It’s also a good idea to have <a href="https://git.org/en/download/">git</a> installed, although this is not a strict requirement.
+</p>
+<p style="text-align:center"><a href="https://jenkins.io/doc/">AngularJS Download</a></p>
 </div>
 <br>
 
 # AngularJS Basics
+
+AngularJS is not a single piece in the overall puzzle of building the client-side of a web application. It handles all of the DOM and AJAX glue code you once wrote by hand and puts it in a well-defined structure. This makes AngularJS opinionated about how a CRUD (Create, Read, Update, Delete) application should be built. 
 
 The official AngularJS introduction describes AngularJS as a:
 
