@@ -7,17 +7,18 @@ subtitle: Introduction
 <div style="border-bottom:1px solid black;">
 <p>
 Node Package Manager (<strong>NPM</strong>) is the world's largest software registry, with approximately 3 billion downloads per week. npm opens up an entire world of JavaScript talent to you and to your team. The registry contains over 600,000 packages (building blocks of code).<br> 
+<br>
 Open-source developers from every continent share and borrow packages through npm, accessing algorithms designed across the planet or across the street. Packages follow specific structures to enable you to track and manage versions and multiple dependencies.
 </p>
 <p style="text-align:center"><a href="https://nodejs.org/en/download/">Node.js Download</a></p>
 </div>
 <br>
 
-## Getting Started
+# Getting Started
 
 If you're using OS X or Windows, use one of the installers from the Node.js download page linked above. Be sure to install the version labeled LTS. Other versions have not yet been tested with npm.
 
-<p style="text-align:center"><a href="https://docs.npmjs.com/getting-started/installing-node">installing node</a></p>
+<p style="text-align:center"><a href="https://docs.npmjs.com/getting-started/installing-node">Installing Node</a></p>
 
 <br>
 ## Installing Local Packages
@@ -42,9 +43,9 @@ A **package.json** file:
 * allows you to specify the versions of a package that your project can use using semantic versioning rules.
 
 * makes your build reproducible, and therefore much easier to share with other developers.
-
 <br>
-#### Requirements
+
+### Requirements
 
 A **package.json** must have:
 
@@ -54,19 +55,16 @@ A **package.json** must have:
 	* dashes and underscores allowed
 * **"version"**
 	* in the form of x.x.x
-	* follows semver spec
-
-For example:
+	* follows semver spec e.g.:
 ```
 {
   "name": "my-awesome-package",
   "version": "1.0.0"
 }
 ```
-
-
 <br>
-#### Creating a package.json
+
+### Creating a package.json
 
 There are two basic ways to create a package.json file.
 
@@ -87,7 +85,6 @@ This method will generate a default package.json using information extracted fro
 ## Nodejs Local Server
 
 If Node.js is already downloaded and installed in your system, you can easily set up a simple HTTP web server on your system using Node.js.
-
 <br>
 #### Install the http-server package from npm
 
@@ -106,3 +103,5 @@ http-server -o
 
 
 That's all you need to do, The -o automatically opens the web server in your browser. You can also enter just ```http-server``` and manually browse to http://localhost:8080 from your web browser.
+<br>
+<br>
