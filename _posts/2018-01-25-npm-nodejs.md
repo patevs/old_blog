@@ -38,12 +38,11 @@ The best way to manage locally installed npm packages is to create a **package.j
 
 A **package.json** file:
 
-* lists the packages that your project depends on.
+* Lists the packages that your project depends on.
 
-* allows you to specify the versions of a package that your project can use using semantic versioning rules.
+* Allows you to specify the versions of a package that your project can use using semantic versioning rules.
 
-* makes your build reproducible, and therefore much easier to share with other developers.
-<br>
+* Makes your build reproducible, and therefore much easier to share with other developers.
 
 ### Requirements
 
@@ -62,7 +61,6 @@ A **package.json** must have:
   "version": "1.0.0"
 }
 ```
-<br>
 
 ### Creating a package.json
 
@@ -102,6 +100,6 @@ http-server -o
 ```
 
 
-That's all you need to do, The -o automatically opens the web server in your browser. You can also enter just ```http-server``` and manually browse to http://localhost:8080 from your web browser.
+That's all you need to do, The ```-o``` automatically opens the web server in your browser. You can also enter just ```http-server``` and manually browse to <a href="http://localhost:8080" target="_blank">http://localhost:8080</a> from your web browser.
 <br>
 <br>
