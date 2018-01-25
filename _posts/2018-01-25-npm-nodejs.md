@@ -6,7 +6,8 @@ subtitle: Introduction
 
 <div style="border-bottom:1px solid black;">
 <p>
-Node Package Manager (<strong>NPM</strong>) is the world's largest software registry, with approximately 3 billion downloads per week. npm opens up an entire world of JavaScript talent to you and to your team. The registry contains over 600,000 packages (building blocks of code). Open-source developers from every continent share and borrow packages through npm, accessing algorithms designed across the planet or across the street. Packages follow specific structures to enable you to track and manage versions and multiple dependencies. Here is a quick introduction to npm:
+Node Package Manager (<strong>NPM</strong>) is the world's largest software registry, with approximately 3 billion downloads per week. npm opens up an entire world of JavaScript talent to you and to your team. The registry contains over 600,000 packages (building blocks of code).<br> 
+Open-source developers from every continent share and borrow packages through npm, accessing algorithms designed across the planet or across the street. Packages follow specific structures to enable you to track and manage versions and multiple dependencies.
 </p>
 <p style="text-align:center"><a href="https://nodejs.org/en/download/">Node.js Download</a></p>
 </div>
@@ -16,7 +17,7 @@ Node Package Manager (<strong>NPM</strong>) is the world's largest software regi
 
 If you're using OS X or Windows, use one of the installers from the Node.js download page linked above. Be sure to install the version labeled LTS. Other versions have not yet been tested with npm.
 
-<p style="text-align:center">More information on: <a href="https://docs.npmjs.com/getting-started/installing-node">installing node</a></p>
+<p style="text-align:center"><a href="https://docs.npmjs.com/getting-started/installing-node">installing node</a></p>
 
 
 ## Installing Local Packages
@@ -26,8 +27,8 @@ There are two ways to install npm packages: locally or globally. Choose which ki
 * If you want to depend on the package from your own module, using something like Node.js' require, then you want to install locally. This is npm install's default behavior.
 * If you want to use a package as a command line tool, (such as grunt CLI), then install it globally.
 
-<p style="text-align:center">More information on: <a href="https://docs.npmjs.com/getting-started/installing-npm-packages-locally">Installing Packages</a></p>
-<p style="text-align:center">More information on: <a href="https://docs.npmjs.com/getting-started/packages">Packages and Modules</a></p>
+<p style="text-align:center"><a href="https://docs.npmjs.com/getting-started/installing-npm-packages-locally">Installing Packages</a></p>
+<p style="text-align:center"><a href="https://docs.npmjs.com/getting-started/packages">Packages and Modules</a></p>
 
 
 ## Working with package.json
@@ -44,23 +45,22 @@ A **package.json** file:
 
 A **package.json** must have:
 
-* "name"
+* **"name"**
 	* all lowercase
 	* one word, no spaces
 	* dashes and underscores allowed
-
-* "version"
+* **"version"**
 	* in the form of x.x.x
 	* follows semver spec
 
 For example:
-
 ```
 {
   "name": "my-awesome-package",
   "version": "1.0.0"
 }
 ```
+
 
 #### Creating a package.json
 
@@ -85,31 +85,29 @@ To get a default **package.json**, run **npm init** with the **--yes** or **-y**
 ```
 
 This method will generate a default package.json using information extracted from the current directory.
+<br>
+
 
 
 ## Nodejs Server
 
-#### Install the http-server package from npm
-Install the http-server globally on your machine using the node package manager (npm) command line tool, this will allow you to run a web server from anywhere on your computer.
 
-Open a command prompt / command line window and enter the following:
+#### Install the http-server package from npm
+
+If Node.js is already downloaded and installed in your system, you can easily set up a simple HTTP web server on your system using Node.js. To do this, follow these steps outlined below:
+
+1. Open a command prompt / command line window in the administrator mode
+2. Enter the following command:
 
 ```
 npm install -g http-server
 ```
 
-#### Start a web server from a directory containing static website files
-
-Change to the directory containing your static web files (e.g. html, javascript, css etc) in the command line window, e.g:
-
-```
-cd \projects\angular-registration-login-example
-```
-
-Start the server with this command:
+3. Switch to the directory containing the web files
+4. Start the web server with this following command:
 
 ```
 http-server -o
 ```
 
-The -o opens server in your browser
+That's all you need to do, The -o automatically opens the web server in your browser. You can also enter just ```http-server``` and manually browse to http://localhost:8080 from your web browser.
