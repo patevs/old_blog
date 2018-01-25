@@ -41,6 +41,7 @@ A **package.json** file:
 * allows you to specify the versions of a package that your project can use using semantic versioning rules.
 * makes your build reproducible, and therefore much easier to share with other developers.
 
+
 #### Requirements
 
 A **package.json** must have:
@@ -67,47 +68,37 @@ For example:
 There are two basic ways to create a package.json file.
 
 1. Run a CLI questionnaire
-
 To create a **package.json** with values that you supply, run:
-
 ```
 > npm init
 ```
-
 This will initiate a command line questionnaire that will conclude with the creation of a **package.json** in the directory in which you initiated the command.
-
 2. Create a default package.json
-
 To get a default **package.json**, run **npm init** with the **--yes** or **-y** flag:
-
 ```
 > npm init --yes
 ```
-
 This method will generate a default package.json using information extracted from the current directory.
 <br>
 
+<br>
+## Nodejs Local Server
 
-
-## Nodejs Server
-
-
+<br>
 #### Install the http-server package from npm
 
 If Node.js is already downloaded and installed in your system, you can easily set up a simple HTTP web server on your system using Node.js. To do this, follow these steps outlined below:
 
 1. Open a command prompt / command line window in the administrator mode
 2. Enter the following command:
-
 ```
 npm install -g http-server
 ```
-
 3. Switch to the directory containing the web files
 4. Start the web server with this following command:
-
 ```
 http-server -o
 ```
+
 
 That's all you need to do, The -o automatically opens the web server in your browser. You can also enter just ```http-server``` and manually browse to http://localhost:8080 from your web browser.
