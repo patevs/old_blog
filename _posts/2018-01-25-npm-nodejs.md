@@ -19,7 +19,7 @@ If you're using OS X or Windows, use one of the installers from the Node.js down
 
 <p style="text-align:center"><a href="https://docs.npmjs.com/getting-started/installing-node">installing node</a></p>
 
-
+<br>
 ## Installing Local Packages
 
 There are two ways to install npm packages: locally or globally. Choose which kind of installation to use based on how you want to use the package.
@@ -30,7 +30,7 @@ There are two ways to install npm packages: locally or globally. Choose which ki
 <p style="text-align:center"><a href="https://docs.npmjs.com/getting-started/installing-npm-packages-locally">Installing Packages</a></p>
 <p style="text-align:center"><a href="https://docs.npmjs.com/getting-started/packages">Packages and Modules</a></p>
 
-
+<br>
 ## Working with package.json
 
 The best way to manage locally installed npm packages is to create a **package.json** file.
@@ -38,10 +38,12 @@ The best way to manage locally installed npm packages is to create a **package.j
 A **package.json** file:
 
 * lists the packages that your project depends on.
+
 * allows you to specify the versions of a package that your project can use using semantic versioning rules.
+
 * makes your build reproducible, and therefore much easier to share with other developers.
 
-
+<br>
 #### Requirements
 
 A **package.json** must have:
@@ -63,6 +65,7 @@ For example:
 ```
 
 
+<br>
 #### Creating a package.json
 
 There are two basic ways to create a package.json file.
@@ -73,8 +76,7 @@ To create a **package.json** with values that you supply, run:
 > npm init
 ```
 This will initiate a command line questionnaire that will conclude with the creation of a **package.json** in the directory in which you initiated the command.
-2. Create a default package.json
-To get a default **package.json**, run **npm init** with the **--yes** or **-y** flag:
+2. To get a default **package.json**, run **npm init** with the **--yes** or **-y** flag:
 ```
 > npm init --yes
 ```
@@ -84,10 +86,12 @@ This method will generate a default package.json using information extracted fro
 <br>
 ## Nodejs Local Server
 
+If Node.js is already downloaded and installed in your system, you can easily set up a simple HTTP web server on your system using Node.js.
+
 <br>
 #### Install the http-server package from npm
 
-If Node.js is already downloaded and installed in your system, you can easily set up a simple HTTP web server on your system using Node.js. To do this, follow these steps outlined below:
+To do this, follow these steps outlined below:
 
 1. Open a command prompt / command line window in the administrator mode
 2. Enter the following command:
