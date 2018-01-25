@@ -62,7 +62,8 @@ A **package.json** must have:
 }
 ```
 
-### Creating a package.json
+<br>
+## Creating a package.json
 
 There are two basic ways to create a package.json file.
 
