@@ -9,11 +9,11 @@ subtitle: Introduction
 <strong>AngularJS</strong> is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. AngularJS's data binding and dependency injection eliminate much of the code you would otherwise have to write. And it all happens within the browser, making it an ideal partner with any server technology.
 </p>
 <p>
-Creating web content with <strong>AngularJS</strong> requires the install of a few libraries to get going.
-To run our tests, we’ll need the Karma library and <a href="https://nodejs.org/en/download/">nodejs</a>.
+Creating web content with AngularJS requires the install of a few libraries to get going.
+To run our tests, we will need the <a href="http://karma-runner.github.io/2.0/intro/installation.html">Karma library</a>  and <a href="https://nodejs.org/en/download/">nodejs</a>.
 It’s also a good idea to have <a href="https://git.org/en/download/">git</a> installed, although this is not a strict requirement.
 </p>
-<p style="text-align:center"><a href="https://jenkins.io/doc/">AngularJS Download</a></p>
+<p style="text-align:center"><a href="https://angularjs.org/">AngularJS</a></p>
 </div>
 <br>
 
