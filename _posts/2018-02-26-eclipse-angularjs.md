@@ -92,10 +92,10 @@ In Angular, a module is the main way to define an AngularJS app. The module of a
 Using modules gives us a lot of advantages, such as:
 
 * Keeping our global namespace clean
-* Making tests easier to write and keeping them clean so as to more easily target isolated functionality
 * Making it easy to share code between applications
 * Allowing our app to load different parts of the code in any order
-* The Angular module API allows us to declare a module using the angular.module() API method.s
+* Making tests easier to write and keeping them clean so as to more easily target isolated functionality
+* The Angular module API allows us to declare a module using the angular.module() API methods
 
 When declaring a module, we need to pass two parameters to the method. The first is the name of the module we are creating. The second is the list of dependencies, otherwise known as injectables.
 
@@ -103,8 +103,8 @@ When declaring a module, we need to pass two parameters to the method. The first
 angular.module('myApp', []);
 ```
 
-This method is called the setter method for the Angular module; it’s how we define our
-module. We can always reference our module by using the same method with only one parameter. 
+This method is called the setter method for the Angular module; it’s how we define our module. We can always reference our module by using the same method with only one parameter. 
+
 For instance, we can reference the myApp module like so:
 
 ```javascript
@@ -112,8 +112,7 @@ For instance, we can reference the myApp module like so:
 angular.module('myApp');
 ```
 
-This method is known as the getter method, whereby we can get the Angular module for
-later reference.
+This method is known as the getter method, whereby we can get the Angular module for later reference.
 
 We can create our applications on top of the ```angular.module('myApp')``` variable.
 
