@@ -7,7 +7,7 @@ subtitle: Introduction
 <div style="border-bottom:1px solid black;text-align: justify;">
 <!-- text-justify: inter-word; -->
 <p>
-AngularJS is not a single piece in the overall puzzle of building the client-side of a web application. It handles all of the DOM and AJAX glue code you once wrote by hand and puts it in a well-defined structure. This makes AngularJS opinionated about how a <span style="font-weight:bold;">CRUD</span> (<span style="font-weight:bold;">C</span>reate, <span style="font-weight:bold;">R<span>ead, <span style="font-weight:bold;">U</span>pdate, <span style="font-weight:bold;">D</span>elete) application should be built.
+AngularJS is not a single piece in the overall puzzle of building the client-side of a web application. It handles all of the DOM and AJAX glue code you once wrote by hand and puts it in a well-defined structure. This makes AngularJS opinionated about how a <span style="font-weight:bold;">CRUD</span> (<span style="font-weight:bold;">C</span>reate, <span style="font-weight:bold;">R</span>ead, <span style="font-weight:bold;">U</span>pdate, <span style="font-weight:bold;">D</span>elete) application should be built.
 </p>
 <p>Creating web content with AngularJS in Eclipse requires the install of a few libraries to get going. To run our tests, we will need the <a href="http://karma-runner.github.io/2.0/intro/installation.html">Karma library</a> and <a href="https://nodejs.org/en/download/">nodejs</a>.
 It’s also a good idea to have <a href="https://git.org/en/download/">git</a> installed, although this is not a strict requirement.</p>
