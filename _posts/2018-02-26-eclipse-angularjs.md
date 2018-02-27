@@ -35,7 +35,7 @@ capabilities. This choice, as it turns out, makes building impressive and expres
 
 **MVC in AngularJS**
 
-<img src="http://angularjstutorials.net/images/mvc/mvc-framework.png" style="text-align: center;" />
+<img src="http://angularjstutorials.net/images/mvc/mvc-framework.png" style="display:block;margin-left:auto;margin-right:auto;" />
 
 <br>
 It enables you, the developer, to encapsulate a portion of your entire page as one application, rather than forcing the entire page to be an AngularJS application. 
