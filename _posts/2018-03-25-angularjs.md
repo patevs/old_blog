@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AngularJS
-subtitle: Basics
+subtitle: Databinding and Scopes
 ---
 
 <div style="border-bottom:1px solid black;">

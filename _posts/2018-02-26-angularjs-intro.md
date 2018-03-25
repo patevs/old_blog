@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Eclipse and AngularJS
+title: AngularJS
 subtitle: Introduction
 ---
 
@@ -12,8 +12,6 @@ AngularJS is not a single piece in the overall puzzle of building the client-sid
 <p>Creating web content with AngularJS in Eclipse requires the install of a few libraries to get going. To run our tests, we will need the <a href="http://karma-runner.github.io/2.0/intro/installation.html">Karma library</a> and <a href="https://nodejs.org/en/download/">nodejs</a>.
 It’s also a good idea to have <a href="https://git.org/en/download/">git</a> installed, although this is not a strict requirement.</p>
 <p style="text-align:center"><a href="https://angularjs.org/">AngularJS</a></p>
-<p style="text-align:center"><a href="https://angularjs.org/">AngularJS in Eclipse</a></p>
-
 </div>
 <br>
 
