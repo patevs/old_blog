@@ -15,7 +15,7 @@ It’s also a good idea to have <a href="https://git.org/en/download/">git</a> i
 </div>
 <br>
 
-# AngularJS Basics
+# AngularJS Introduction
 
 The official AngularJS introduction describes AngularJS as a:
 

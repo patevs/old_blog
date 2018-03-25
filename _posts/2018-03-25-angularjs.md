@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AngularJS
+title: AngularJS Basics
 subtitle: Databinding and Scopes
 ---
 
