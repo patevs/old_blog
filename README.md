@@ -1,3 +1,11 @@
-# patevs.github.io
+# old_blog
 
-Hello, this is a simple test website
+My old blog created using Jekyll.
+
+https://jekyllrb.com/
+
+Theme: 
+* https://deanattali.com/beautiful-jekyll/
+* https://github.com/daattali/beautiful-jekyll
+
+----
